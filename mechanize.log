@@ -1,0 +1,1291 @@
+# Logfile created on 2014-10-23 20:05:22 +0000 by logger.rb/44203
+I, [2014-10-23T20:05:22.806810 #575]  INFO -- : Net::HTTP::Get: /
+D, [2014-10-23T20:05:22.807180 #575] DEBUG -- : request-header: accept-encoding => gzip,deflate,identity
+D, [2014-10-23T20:05:22.807504 #575] DEBUG -- : request-header: accept => */*
+D, [2014-10-23T20:05:22.808241 #575] DEBUG -- : request-header: user-agent => Mechanize/2.7.2 Ruby/2.1.1p76 (http://github.com/sparklemotion/mechanize/)
+D, [2014-10-23T20:05:22.808294 #575] DEBUG -- : request-header: accept-charset => ISO-8859-1,utf-8;q=0.7,*;q=0.7
+D, [2014-10-23T20:05:22.808424 #575] DEBUG -- : request-header: accept-language => en-us,en;q=0.5
+D, [2014-10-23T20:05:22.808538 #575] DEBUG -- : request-header: host => dropbox.com
+I, [2014-10-23T20:05:23.671087 #575]  INFO -- : status: Net::HTTPMovedPermanently 1.1 301 Moved Permanently
+D, [2014-10-23T20:05:23.671238 #575] DEBUG -- : response-header: server => nginx
+D, [2014-10-23T20:05:23.671311 #575] DEBUG -- : response-header: date => Thu, 23 Oct 2014 20:05:23 GMT
+D, [2014-10-23T20:05:23.671362 #575] DEBUG -- : response-header: content-type => text/html
+D, [2014-10-23T20:05:23.671409 #575] DEBUG -- : response-header: content-length => 178
+D, [2014-10-23T20:05:23.671464 #575] DEBUG -- : response-header: connection => keep-alive
+D, [2014-10-23T20:05:23.671533 #575] DEBUG -- : response-header: location => https://dropbox.com/
+D, [2014-10-23T20:05:23.671703 #575] DEBUG -- : Read 178 bytes (178 total)
+I, [2014-10-23T20:05:23.672220 #575]  INFO -- : follow redirect to: https://dropbox.com/
+I, [2014-10-23T20:05:23.673180 #575]  INFO -- : Net::HTTP::Get: /
+D, [2014-10-23T20:05:23.673238 #575] DEBUG -- : request-header: accept-encoding => gzip,deflate,identity
+D, [2014-10-23T20:05:23.673287 #575] DEBUG -- : request-header: accept => */*
+D, [2014-10-23T20:05:23.673353 #575] DEBUG -- : request-header: user-agent => Mechanize/2.7.2 Ruby/2.1.1p76 (http://github.com/sparklemotion/mechanize/)
+D, [2014-10-23T20:05:23.673400 #575] DEBUG -- : request-header: accept-charset => ISO-8859-1,utf-8;q=0.7,*;q=0.7
+D, [2014-10-23T20:05:23.673446 #575] DEBUG -- : request-header: accept-language => en-us,en;q=0.5
+D, [2014-10-23T20:05:23.673491 #575] DEBUG -- : request-header: host => dropbox.com
+I, [2014-10-23T20:05:24.476377 #575]  INFO -- : status: Net::HTTPMovedPermanently 1.1 301 Moved Permanently
+D, [2014-10-23T20:05:24.476525 #575] DEBUG -- : response-header: server => nginx
+D, [2014-10-23T20:05:24.476578 #575] DEBUG -- : response-header: date => Thu, 23 Oct 2014 20:05:24 GMT
+D, [2014-10-23T20:05:24.476626 #575] DEBUG -- : response-header: content-type => text/html
+D, [2014-10-23T20:05:24.476683 #575] DEBUG -- : response-header: content-length => 178
+D, [2014-10-23T20:05:24.476753 #575] DEBUG -- : response-header: connection => keep-alive
+D, [2014-10-23T20:05:24.476800 #575] DEBUG -- : response-header: location => https://www.dropbox.com/
+D, [2014-10-23T20:05:24.476847 #575] DEBUG -- : response-header: strict-transport-security => max-age=2592000
+D, [2014-10-23T20:05:24.476950 #575] DEBUG -- : Read 178 bytes (178 total)
+I, [2014-10-23T20:05:24.477401 #575]  INFO -- : follow redirect to: https://www.dropbox.com/
+I, [2014-10-23T20:05:24.478338 #575]  INFO -- : Net::HTTP::Get: /
+D, [2014-10-23T20:05:24.478409 #575] DEBUG -- : request-header: accept-encoding => gzip,deflate,identity
+D, [2014-10-23T20:05:24.478460 #575] DEBUG -- : request-header: accept => */*
+D, [2014-10-23T20:05:24.478523 #575] DEBUG -- : request-header: user-agent => Mechanize/2.7.2 Ruby/2.1.1p76 (http://github.com/sparklemotion/mechanize/)
+D, [2014-10-23T20:05:24.478570 #575] DEBUG -- : request-header: accept-charset => ISO-8859-1,utf-8;q=0.7,*;q=0.7
+D, [2014-10-23T20:05:24.478625 #575] DEBUG -- : request-header: accept-language => en-us,en;q=0.5
+D, [2014-10-23T20:05:24.478671 #575] DEBUG -- : request-header: host => www.dropbox.com
+I, [2014-10-23T20:05:25.591318 #575]  INFO -- : status: Net::HTTPOK 1.1 200 OK
+D, [2014-10-23T20:05:25.591469 #575] DEBUG -- : response-header: server => nginx
+D, [2014-10-23T20:05:25.591519 #575] DEBUG -- : response-header: date => Thu, 23 Oct 2014 20:05:25 GMT
+D, [2014-10-23T20:05:25.591593 #575] DEBUG -- : response-header: content-type => text/html; charset=utf-8
+D, [2014-10-23T20:05:25.591650 #575] DEBUG -- : response-header: transfer-encoding => chunked
+D, [2014-10-23T20:05:25.591697 #575] DEBUG -- : response-header: connection => keep-alive
+D, [2014-10-23T20:05:25.591743 #575] DEBUG -- : response-header: set-cookie => locale=en; Domain=dropbox.com; expires=Tue, 22 Oct 2019 20:05:25 GMT; Path=/, gvc=MzIzMzE3NjczNDg1MzExODY5NjQyNzgxMTg1MjI2NjU4NTk5NzQ2; expires=Tue, 22 Oct 2019 20:05:25 GMT; Path=/; httponly, t=Ms8NYX8x0JIsSIoQWEFKpvM2; Domain=dropbox.com; expires=Sat, 22 Nov 2014 20:05:25 GMT; Path=/; secure; httponly
+D, [2014-10-23T20:05:25.591791 #575] DEBUG -- : response-header: strict-transport-security => max-age=2592000; includeSubDomains
+D, [2014-10-23T20:05:25.591838 #575] DEBUG -- : response-header: x-server-response-time => 93
+D, [2014-10-23T20:05:25.591884 #575] DEBUG -- : response-header: x-dropbox-request-id => c25c1e2d2b7becfee8062c3a63eb84c6
+D, [2014-10-23T20:05:25.591931 #575] DEBUG -- : response-header: pragma => no-cache
+D, [2014-10-23T20:05:25.591982 #575] DEBUG -- : response-header: cache-control => no-cache
+D, [2014-10-23T20:05:25.592029 #575] DEBUG -- : response-header: x-dropbox-http-protocol => None
+D, [2014-10-23T20:05:25.592074 #575] DEBUG -- : response-header: x-frame-options => SAMEORIGIN
+D, [2014-10-23T20:05:25.592119 #575] DEBUG -- : response-header: content-encoding => gzip
+D, [2014-10-23T20:05:25.592326 #575] DEBUG -- : Read 11129 bytes (11129 total)
+D, [2014-10-23T20:05:25.592487 #575] DEBUG -- : gzip response
+D, [2014-10-23T20:05:25.617739 #575] DEBUG -- : saved cookie: locale=en
+D, [2014-10-23T20:05:25.618298 #575] DEBUG -- : saved cookie: gvc=MzIzMzE3NjczNDg1MzExODY5NjQyNzgxMTg1MjI2NjU4NTk5NzQ2
+D, [2014-10-23T20:05:25.618676 #575] DEBUG -- : saved cookie: t=Ms8NYX8x0JIsSIoQWEFKpvM2
+I, [2014-10-23T20:06:20.389847 #587]  INFO -- : Net::HTTP::Get: /
+D, [2014-10-23T20:06:20.397843 #587] DEBUG -- : request-header: accept-encoding => gzip,deflate,identity
+D, [2014-10-23T20:06:20.401925 #587] DEBUG -- : request-header: accept => */*
+D, [2014-10-23T20:06:20.401992 #587] DEBUG -- : request-header: user-agent => Mechanize/2.7.2 Ruby/2.1.1p76 (http://github.com/sparklemotion/mechanize/)
+D, [2014-10-23T20:06:20.402043 #587] DEBUG -- : request-header: accept-charset => ISO-8859-1,utf-8;q=0.7,*;q=0.7
+D, [2014-10-23T20:06:20.402091 #587] DEBUG -- : request-header: accept-language => en-us,en;q=0.5
+D, [2014-10-23T20:06:20.402137 #587] DEBUG -- : request-header: host => dropbox.com
+I, [2014-10-23T20:06:20.794876 #587]  INFO -- : status: Net::HTTPMovedPermanently 1.1 301 Moved Permanently
+D, [2014-10-23T20:06:20.795007 #587] DEBUG -- : response-header: server => nginx
+D, [2014-10-23T20:06:20.795068 #587] DEBUG -- : response-header: date => Thu, 23 Oct 2014 20:06:20 GMT
+D, [2014-10-23T20:06:20.795133 #587] DEBUG -- : response-header: content-type => text/html
+D, [2014-10-23T20:06:20.795185 #587] DEBUG -- : response-header: content-length => 178
+D, [2014-10-23T20:06:20.795232 #587] DEBUG -- : response-header: connection => keep-alive
+D, [2014-10-23T20:06:20.795278 #587] DEBUG -- : response-header: location => https://dropbox.com/
+D, [2014-10-23T20:06:20.795457 #587] DEBUG -- : Read 178 bytes (178 total)
+I, [2014-10-23T20:06:20.795940 #587]  INFO -- : follow redirect to: https://dropbox.com/
+I, [2014-10-23T20:06:20.796891 #587]  INFO -- : Net::HTTP::Get: /
+D, [2014-10-23T20:06:20.796969 #587] DEBUG -- : request-header: accept-encoding => gzip,deflate,identity
+D, [2014-10-23T20:06:20.797020 #587] DEBUG -- : request-header: accept => */*
+D, [2014-10-23T20:06:20.797067 #587] DEBUG -- : request-header: user-agent => Mechanize/2.7.2 Ruby/2.1.1p76 (http://github.com/sparklemotion/mechanize/)
+D, [2014-10-23T20:06:20.797115 #587] DEBUG -- : request-header: accept-charset => ISO-8859-1,utf-8;q=0.7,*;q=0.7
+D, [2014-10-23T20:06:20.797164 #587] DEBUG -- : request-header: accept-language => en-us,en;q=0.5
+D, [2014-10-23T20:06:20.797220 #587] DEBUG -- : request-header: host => dropbox.com
+I, [2014-10-23T20:06:21.558508 #587]  INFO -- : status: Net::HTTPMovedPermanently 1.1 301 Moved Permanently
+D, [2014-10-23T20:06:21.558655 #587] DEBUG -- : response-header: server => nginx
+D, [2014-10-23T20:06:21.558706 #587] DEBUG -- : response-header: date => Thu, 23 Oct 2014 20:06:21 GMT
+D, [2014-10-23T20:06:21.558754 #587] DEBUG -- : response-header: content-type => text/html
+D, [2014-10-23T20:06:21.558801 #587] DEBUG -- : response-header: content-length => 178
+D, [2014-10-23T20:06:21.558847 #587] DEBUG -- : response-header: connection => keep-alive
+D, [2014-10-23T20:06:21.558895 #587] DEBUG -- : response-header: location => https://www.dropbox.com/
+D, [2014-10-23T20:06:21.558942 #587] DEBUG -- : response-header: strict-transport-security => max-age=2592000
+D, [2014-10-23T20:06:21.559063 #587] DEBUG -- : Read 178 bytes (178 total)
+I, [2014-10-23T20:06:21.559452 #587]  INFO -- : follow redirect to: https://www.dropbox.com/
+I, [2014-10-23T20:06:21.560382 #587]  INFO -- : Net::HTTP::Get: /
+D, [2014-10-23T20:06:21.560442 #587] DEBUG -- : request-header: accept-encoding => gzip,deflate,identity
+D, [2014-10-23T20:06:21.560491 #587] DEBUG -- : request-header: accept => */*
+D, [2014-10-23T20:06:21.560538 #587] DEBUG -- : request-header: user-agent => Mechanize/2.7.2 Ruby/2.1.1p76 (http://github.com/sparklemotion/mechanize/)
+D, [2014-10-23T20:06:21.560585 #587] DEBUG -- : request-header: accept-charset => ISO-8859-1,utf-8;q=0.7,*;q=0.7
+D, [2014-10-23T20:06:21.560632 #587] DEBUG -- : request-header: accept-language => en-us,en;q=0.5
+D, [2014-10-23T20:06:21.560678 #587] DEBUG -- : request-header: host => www.dropbox.com
+I, [2014-10-23T20:06:22.452027 #587]  INFO -- : status: Net::HTTPOK 1.1 200 OK
+D, [2014-10-23T20:06:22.452163 #587] DEBUG -- : response-header: server => nginx
+D, [2014-10-23T20:06:22.452214 #587] DEBUG -- : response-header: date => Thu, 23 Oct 2014 20:06:22 GMT
+D, [2014-10-23T20:06:22.452263 #587] DEBUG -- : response-header: content-type => text/html; charset=utf-8
+D, [2014-10-23T20:06:22.452309 #587] DEBUG -- : response-header: transfer-encoding => chunked
+D, [2014-10-23T20:06:22.452354 #587] DEBUG -- : response-header: connection => keep-alive
+D, [2014-10-23T20:06:22.452435 #587] DEBUG -- : response-header: set-cookie => locale=en; Domain=dropbox.com; expires=Tue, 22 Oct 2019 20:06:22 GMT; Path=/, gvc=OTE4OTQ4NjU4MDUwNDk2MDYxNTY3NDA3NTUxOTYwMDMwMzg5ODg%3D; expires=Tue, 22 Oct 2019 20:06:22 GMT; Path=/; httponly, t=65ZXPTGK8pb5P4bGdpZEO061; Domain=dropbox.com; expires=Sat, 22 Nov 2014 20:06:22 GMT; Path=/; secure; httponly
+D, [2014-10-23T20:06:22.452484 #587] DEBUG -- : response-header: strict-transport-security => max-age=2592000; includeSubDomains
+D, [2014-10-23T20:06:22.452530 #587] DEBUG -- : response-header: x-server-response-time => 82
+D, [2014-10-23T20:06:22.452576 #587] DEBUG -- : response-header: x-dropbox-request-id => 471f44ee33c369f976868c996f91305b
+D, [2014-10-23T20:06:22.452621 #587] DEBUG -- : response-header: pragma => no-cache
+D, [2014-10-23T20:06:22.452666 #587] DEBUG -- : response-header: cache-control => no-cache
+D, [2014-10-23T20:06:22.452711 #587] DEBUG -- : response-header: x-dropbox-http-protocol => None
+D, [2014-10-23T20:06:22.452756 #587] DEBUG -- : response-header: x-frame-options => SAMEORIGIN
+D, [2014-10-23T20:06:22.452801 #587] DEBUG -- : response-header: content-encoding => gzip
+D, [2014-10-23T20:06:22.452996 #587] DEBUG -- : Read 11133 bytes (11133 total)
+D, [2014-10-23T20:06:22.453140 #587] DEBUG -- : gzip response
+D, [2014-10-23T20:06:22.462323 #587] DEBUG -- : saved cookie: locale=en
+D, [2014-10-23T20:06:22.462628 #587] DEBUG -- : saved cookie: gvc=OTE4OTQ4NjU4MDUwNDk2MDYxNTY3NDA3NTUxOTYwMDMwMzg5ODg%3D
+D, [2014-10-23T20:06:22.462973 #587] DEBUG -- : saved cookie: t=65ZXPTGK8pb5P4bGdpZEO061
+I, [2014-10-23T20:06:59.968707 #595]  INFO -- : Net::HTTP::Get: /
+D, [2014-10-23T20:06:59.968871 #595] DEBUG -- : request-header: accept-encoding => gzip,deflate,identity
+D, [2014-10-23T20:06:59.973175 #595] DEBUG -- : request-header: accept => */*
+D, [2014-10-23T20:06:59.973239 #595] DEBUG -- : request-header: user-agent => Mechanize/2.7.2 Ruby/2.1.1p76 (http://github.com/sparklemotion/mechanize/)
+D, [2014-10-23T20:06:59.973288 #595] DEBUG -- : request-header: accept-charset => ISO-8859-1,utf-8;q=0.7,*;q=0.7
+D, [2014-10-23T20:06:59.973334 #595] DEBUG -- : request-header: accept-language => en-us,en;q=0.5
+D, [2014-10-23T20:06:59.974376 #595] DEBUG -- : request-header: host => dropbox.com
+I, [2014-10-23T20:07:00.614658 #595]  INFO -- : status: Net::HTTPMovedPermanently 1.1 301 Moved Permanently
+D, [2014-10-23T20:07:00.614814 #595] DEBUG -- : response-header: server => nginx
+D, [2014-10-23T20:07:00.614865 #595] DEBUG -- : response-header: date => Thu, 23 Oct 2014 20:07:00 GMT
+D, [2014-10-23T20:07:00.614923 #595] DEBUG -- : response-header: content-type => text/html
+D, [2014-10-23T20:07:00.614970 #595] DEBUG -- : response-header: content-length => 178
+D, [2014-10-23T20:07:00.615061 #595] DEBUG -- : response-header: connection => keep-alive
+D, [2014-10-23T20:07:00.615112 #595] DEBUG -- : response-header: location => https://dropbox.com/
+D, [2014-10-23T20:07:00.615272 #595] DEBUG -- : Read 178 bytes (178 total)
+I, [2014-10-23T20:07:00.615788 #595]  INFO -- : follow redirect to: https://dropbox.com/
+I, [2014-10-23T20:07:00.616756 #595]  INFO -- : Net::HTTP::Get: /
+D, [2014-10-23T20:07:00.616815 #595] DEBUG -- : request-header: accept-encoding => gzip,deflate,identity
+D, [2014-10-23T20:07:00.616881 #595] DEBUG -- : request-header: accept => */*
+D, [2014-10-23T20:07:00.616929 #595] DEBUG -- : request-header: user-agent => Mechanize/2.7.2 Ruby/2.1.1p76 (http://github.com/sparklemotion/mechanize/)
+D, [2014-10-23T20:07:00.616981 #595] DEBUG -- : request-header: accept-charset => ISO-8859-1,utf-8;q=0.7,*;q=0.7
+D, [2014-10-23T20:07:00.617029 #595] DEBUG -- : request-header: accept-language => en-us,en;q=0.5
+D, [2014-10-23T20:07:00.617090 #595] DEBUG -- : request-header: host => dropbox.com
+I, [2014-10-23T20:07:01.379880 #595]  INFO -- : status: Net::HTTPMovedPermanently 1.1 301 Moved Permanently
+D, [2014-10-23T20:07:01.380024 #595] DEBUG -- : response-header: server => nginx
+D, [2014-10-23T20:07:01.380074 #595] DEBUG -- : response-header: date => Thu, 23 Oct 2014 20:07:01 GMT
+D, [2014-10-23T20:07:01.380122 #595] DEBUG -- : response-header: content-type => text/html
+D, [2014-10-23T20:07:01.380190 #595] DEBUG -- : response-header: content-length => 178
+D, [2014-10-23T20:07:01.380261 #595] DEBUG -- : response-header: connection => keep-alive
+D, [2014-10-23T20:07:01.380329 #595] DEBUG -- : response-header: location => https://www.dropbox.com/
+D, [2014-10-23T20:07:01.380401 #595] DEBUG -- : response-header: strict-transport-security => max-age=2592000
+D, [2014-10-23T20:07:01.380587 #595] DEBUG -- : Read 178 bytes (178 total)
+I, [2014-10-23T20:07:01.381185 #595]  INFO -- : follow redirect to: https://www.dropbox.com/
+I, [2014-10-23T20:07:01.384302 #595]  INFO -- : Net::HTTP::Get: /
+D, [2014-10-23T20:07:01.384386 #595] DEBUG -- : request-header: accept-encoding => gzip,deflate,identity
+D, [2014-10-23T20:07:01.384451 #595] DEBUG -- : request-header: accept => */*
+D, [2014-10-23T20:07:01.384510 #595] DEBUG -- : request-header: user-agent => Mechanize/2.7.2 Ruby/2.1.1p76 (http://github.com/sparklemotion/mechanize/)
+D, [2014-10-23T20:07:01.384559 #595] DEBUG -- : request-header: accept-charset => ISO-8859-1,utf-8;q=0.7,*;q=0.7
+D, [2014-10-23T20:07:01.384606 #595] DEBUG -- : request-header: accept-language => en-us,en;q=0.5
+D, [2014-10-23T20:07:01.384652 #595] DEBUG -- : request-header: host => www.dropbox.com
+I, [2014-10-23T20:07:02.316748 #595]  INFO -- : status: Net::HTTPOK 1.1 200 OK
+D, [2014-10-23T20:07:02.316905 #595] DEBUG -- : response-header: server => nginx
+D, [2014-10-23T20:07:02.316957 #595] DEBUG -- : response-header: date => Thu, 23 Oct 2014 20:07:02 GMT
+D, [2014-10-23T20:07:02.317011 #595] DEBUG -- : response-header: content-type => text/html; charset=utf-8
+D, [2014-10-23T20:07:02.317058 #595] DEBUG -- : response-header: transfer-encoding => chunked
+D, [2014-10-23T20:07:02.317121 #595] DEBUG -- : response-header: connection => keep-alive
+D, [2014-10-23T20:07:02.317171 #595] DEBUG -- : response-header: set-cookie => locale=en; Domain=dropbox.com; expires=Tue, 22 Oct 2019 20:07:02 GMT; Path=/, gvc=MzQwOTA4ODc1NTQ3OTU1OTY4NDk2MzE1Mzk0ODA0Nzg0NDA2NTA%3D; expires=Tue, 22 Oct 2019 20:07:02 GMT; Path=/; httponly, t=bvNKV8ek_xUsw9k0iArl6Nac; Domain=dropbox.com; expires=Sat, 22 Nov 2014 20:07:02 GMT; Path=/; secure; httponly
+D, [2014-10-23T20:07:02.317219 #595] DEBUG -- : response-header: strict-transport-security => max-age=2592000; includeSubDomains
+D, [2014-10-23T20:07:02.317266 #595] DEBUG -- : response-header: x-server-response-time => 117
+D, [2014-10-23T20:07:02.317313 #595] DEBUG -- : response-header: x-dropbox-request-id => 93199fad3714fea4716bf1ad7a3cb979
+D, [2014-10-23T20:07:02.317359 #595] DEBUG -- : response-header: pragma => no-cache
+D, [2014-10-23T20:07:02.317432 #595] DEBUG -- : response-header: cache-control => no-cache
+D, [2014-10-23T20:07:02.317480 #595] DEBUG -- : response-header: x-dropbox-http-protocol => None
+D, [2014-10-23T20:07:02.317525 #595] DEBUG -- : response-header: x-frame-options => SAMEORIGIN
+D, [2014-10-23T20:07:02.317571 #595] DEBUG -- : response-header: content-encoding => gzip
+D, [2014-10-23T20:07:02.317788 #595] DEBUG -- : Read 11142 bytes (11142 total)
+D, [2014-10-23T20:07:02.317985 #595] DEBUG -- : gzip response
+D, [2014-10-23T20:07:02.343171 #595] DEBUG -- : saved cookie: locale=en
+D, [2014-10-23T20:07:02.343501 #595] DEBUG -- : saved cookie: gvc=MzQwOTA4ODc1NTQ3OTU1OTY4NDk2MzE1Mzk0ODA0Nzg0NDA2NTA%3D
+D, [2014-10-23T20:07:02.346138 #595] DEBUG -- : saved cookie: t=bvNKV8ek_xUsw9k0iArl6Nac
+I, [2014-10-23T20:09:26.197021 #607]  INFO -- : Net::HTTP::Get: /
+D, [2014-10-23T20:09:26.197175 #607] DEBUG -- : request-header: accept-encoding => gzip,deflate,identity
+D, [2014-10-23T20:09:26.197227 #607] DEBUG -- : request-header: accept => */*
+D, [2014-10-23T20:09:26.197274 #607] DEBUG -- : request-header: user-agent => Mechanize/2.7.2 Ruby/2.1.1p76 (http://github.com/sparklemotion/mechanize/)
+D, [2014-10-23T20:09:26.197321 #607] DEBUG -- : request-header: accept-charset => ISO-8859-1,utf-8;q=0.7,*;q=0.7
+D, [2014-10-23T20:09:26.207700 #607] DEBUG -- : request-header: accept-language => en-us,en;q=0.5
+D, [2014-10-23T20:09:26.207756 #607] DEBUG -- : request-header: host => dropbox.com
+I, [2014-10-23T20:09:26.598143 #607]  INFO -- : status: Net::HTTPMovedPermanently 1.1 301 Moved Permanently
+D, [2014-10-23T20:09:26.598291 #607] DEBUG -- : response-header: server => nginx
+D, [2014-10-23T20:09:26.598345 #607] DEBUG -- : response-header: date => Thu, 23 Oct 2014 20:09:26 GMT
+D, [2014-10-23T20:09:26.598402 #607] DEBUG -- : response-header: content-type => text/html
+D, [2014-10-23T20:09:26.598452 #607] DEBUG -- : response-header: content-length => 178
+D, [2014-10-23T20:09:26.598519 #607] DEBUG -- : response-header: connection => keep-alive
+D, [2014-10-23T20:09:26.598585 #607] DEBUG -- : response-header: location => https://dropbox.com/
+D, [2014-10-23T20:09:26.598748 #607] DEBUG -- : Read 178 bytes (178 total)
+I, [2014-10-23T20:09:26.599276 #607]  INFO -- : follow redirect to: https://dropbox.com/
+I, [2014-10-23T20:09:26.600252 #607]  INFO -- : Net::HTTP::Get: /
+D, [2014-10-23T20:09:26.600311 #607] DEBUG -- : request-header: accept-encoding => gzip,deflate,identity
+D, [2014-10-23T20:09:26.600360 #607] DEBUG -- : request-header: accept => */*
+D, [2014-10-23T20:09:26.600422 #607] DEBUG -- : request-header: user-agent => Mechanize/2.7.2 Ruby/2.1.1p76 (http://github.com/sparklemotion/mechanize/)
+D, [2014-10-23T20:09:26.600473 #607] DEBUG -- : request-header: accept-charset => ISO-8859-1,utf-8;q=0.7,*;q=0.7
+D, [2014-10-23T20:09:26.600520 #607] DEBUG -- : request-header: accept-language => en-us,en;q=0.5
+D, [2014-10-23T20:09:26.600577 #607] DEBUG -- : request-header: host => dropbox.com
+I, [2014-10-23T20:09:27.353411 #607]  INFO -- : status: Net::HTTPMovedPermanently 1.1 301 Moved Permanently
+D, [2014-10-23T20:09:27.353555 #607] DEBUG -- : response-header: server => nginx
+D, [2014-10-23T20:09:27.353624 #607] DEBUG -- : response-header: date => Thu, 23 Oct 2014 20:09:27 GMT
+D, [2014-10-23T20:09:27.353686 #607] DEBUG -- : response-header: content-type => text/html
+D, [2014-10-23T20:09:27.353733 #607] DEBUG -- : response-header: content-length => 178
+D, [2014-10-23T20:09:27.353812 #607] DEBUG -- : response-header: connection => keep-alive
+D, [2014-10-23T20:09:27.353861 #607] DEBUG -- : response-header: location => https://www.dropbox.com/
+D, [2014-10-23T20:09:27.353935 #607] DEBUG -- : response-header: strict-transport-security => max-age=2592000
+D, [2014-10-23T20:09:27.354059 #607] DEBUG -- : Read 178 bytes (178 total)
+I, [2014-10-23T20:09:27.354528 #607]  INFO -- : follow redirect to: https://www.dropbox.com/
+I, [2014-10-23T20:09:27.355451 #607]  INFO -- : Net::HTTP::Get: /
+D, [2014-10-23T20:09:27.355509 #607] DEBUG -- : request-header: accept-encoding => gzip,deflate,identity
+D, [2014-10-23T20:09:27.355558 #607] DEBUG -- : request-header: accept => */*
+D, [2014-10-23T20:09:27.355604 #607] DEBUG -- : request-header: user-agent => Mechanize/2.7.2 Ruby/2.1.1p76 (http://github.com/sparklemotion/mechanize/)
+D, [2014-10-23T20:09:27.355667 #607] DEBUG -- : request-header: accept-charset => ISO-8859-1,utf-8;q=0.7,*;q=0.7
+D, [2014-10-23T20:09:27.355713 #607] DEBUG -- : request-header: accept-language => en-us,en;q=0.5
+D, [2014-10-23T20:09:27.355758 #607] DEBUG -- : request-header: host => www.dropbox.com
+I, [2014-10-23T20:09:28.282491 #607]  INFO -- : status: Net::HTTPOK 1.1 200 OK
+D, [2014-10-23T20:09:28.282633 #607] DEBUG -- : response-header: server => nginx
+D, [2014-10-23T20:09:28.282684 #607] DEBUG -- : response-header: date => Thu, 23 Oct 2014 20:09:28 GMT
+D, [2014-10-23T20:09:28.282732 #607] DEBUG -- : response-header: content-type => text/html; charset=utf-8
+D, [2014-10-23T20:09:28.282785 #607] DEBUG -- : response-header: transfer-encoding => chunked
+D, [2014-10-23T20:09:28.282833 #607] DEBUG -- : response-header: connection => keep-alive
+D, [2014-10-23T20:09:28.282881 #607] DEBUG -- : response-header: set-cookie => locale=en; Domain=dropbox.com; expires=Tue, 22 Oct 2019 20:09:28 GMT; Path=/, gvc=MjQ0MjEzNDUzMTg2OTk3NTEyMjM2ODUyMjI0MDk2OTUxNDg0NDY1; expires=Tue, 22 Oct 2019 20:09:28 GMT; Path=/; httponly, t=B2BZro067psyP8woieNQ6iOY; Domain=dropbox.com; expires=Sat, 22 Nov 2014 20:09:28 GMT; Path=/; secure; httponly
+D, [2014-10-23T20:09:28.282929 #607] DEBUG -- : response-header: strict-transport-security => max-age=2592000; includeSubDomains
+D, [2014-10-23T20:09:28.282976 #607] DEBUG -- : response-header: x-server-response-time => 85
+D, [2014-10-23T20:09:28.283023 #607] DEBUG -- : response-header: x-dropbox-request-id => 632b3a013618d92bd2c8402728eb0d03
+D, [2014-10-23T20:09:28.283070 #607] DEBUG -- : response-header: pragma => no-cache
+D, [2014-10-23T20:09:28.283117 #607] DEBUG -- : response-header: cache-control => no-cache
+D, [2014-10-23T20:09:28.283170 #607] DEBUG -- : response-header: x-dropbox-http-protocol => None
+D, [2014-10-23T20:09:28.283215 #607] DEBUG -- : response-header: x-frame-options => SAMEORIGIN
+D, [2014-10-23T20:09:28.283261 #607] DEBUG -- : response-header: content-encoding => gzip
+D, [2014-10-23T20:09:28.283484 #607] DEBUG -- : Read 11161 bytes (11161 total)
+D, [2014-10-23T20:09:28.283643 #607] DEBUG -- : gzip response
+D, [2014-10-23T20:09:28.312001 #607] DEBUG -- : saved cookie: locale=en
+D, [2014-10-23T20:09:28.312303 #607] DEBUG -- : saved cookie: gvc=MjQ0MjEzNDUzMTg2OTk3NTEyMjM2ODUyMjI0MDk2OTUxNDg0NDY1
+D, [2014-10-23T20:09:28.312681 #607] DEBUG -- : saved cookie: t=B2BZro067psyP8woieNQ6iOY
+I, [2014-10-23T20:12:14.670696 #678]  INFO -- : Net::HTTP::Get: /
+D, [2014-10-23T20:12:14.670858 #678] DEBUG -- : request-header: accept-encoding => gzip,deflate,identity
+D, [2014-10-23T20:12:14.670911 #678] DEBUG -- : request-header: accept => */*
+D, [2014-10-23T20:12:14.670958 #678] DEBUG -- : request-header: user-agent => Mechanize/2.7.2 Ruby/2.1.1p76 (http://github.com/sparklemotion/mechanize/)
+D, [2014-10-23T20:12:14.671005 #678] DEBUG -- : request-header: accept-charset => ISO-8859-1,utf-8;q=0.7,*;q=0.7
+D, [2014-10-23T20:12:14.671066 #678] DEBUG -- : request-header: accept-language => en-us,en;q=0.5
+D, [2014-10-23T20:12:14.674479 #678] DEBUG -- : request-header: host => dropbox.com
+I, [2014-10-23T20:12:15.661715 #678]  INFO -- : status: Net::HTTPMovedPermanently 1.1 301 Moved Permanently
+D, [2014-10-23T20:12:15.661851 #678] DEBUG -- : response-header: server => nginx
+D, [2014-10-23T20:12:15.662019 #678] DEBUG -- : response-header: date => Thu, 23 Oct 2014 20:12:15 GMT
+D, [2014-10-23T20:12:15.662075 #678] DEBUG -- : response-header: content-type => text/html
+D, [2014-10-23T20:12:15.662122 #678] DEBUG -- : response-header: content-length => 178
+D, [2014-10-23T20:12:15.662191 #678] DEBUG -- : response-header: connection => keep-alive
+D, [2014-10-23T20:12:15.662242 #678] DEBUG -- : response-header: location => https://dropbox.com/
+D, [2014-10-23T20:12:15.662399 #678] DEBUG -- : Read 178 bytes (178 total)
+I, [2014-10-23T20:12:15.662920 #678]  INFO -- : follow redirect to: https://dropbox.com/
+I, [2014-10-23T20:12:15.663879 #678]  INFO -- : Net::HTTP::Get: /
+D, [2014-10-23T20:12:15.663937 #678] DEBUG -- : request-header: accept-encoding => gzip,deflate,identity
+D, [2014-10-23T20:12:15.664001 #678] DEBUG -- : request-header: accept => */*
+D, [2014-10-23T20:12:15.664049 #678] DEBUG -- : request-header: user-agent => Mechanize/2.7.2 Ruby/2.1.1p76 (http://github.com/sparklemotion/mechanize/)
+D, [2014-10-23T20:12:15.664096 #678] DEBUG -- : request-header: accept-charset => ISO-8859-1,utf-8;q=0.7,*;q=0.7
+D, [2014-10-23T20:12:15.664155 #678] DEBUG -- : request-header: accept-language => en-us,en;q=0.5
+D, [2014-10-23T20:12:15.664218 #678] DEBUG -- : request-header: host => dropbox.com
+I, [2014-10-23T20:12:16.447675 #678]  INFO -- : status: Net::HTTPMovedPermanently 1.1 301 Moved Permanently
+D, [2014-10-23T20:12:16.447819 #678] DEBUG -- : response-header: server => nginx
+D, [2014-10-23T20:12:16.447882 #678] DEBUG -- : response-header: date => Thu, 23 Oct 2014 20:12:16 GMT
+D, [2014-10-23T20:12:16.447942 #678] DEBUG -- : response-header: content-type => text/html
+D, [2014-10-23T20:12:16.448010 #678] DEBUG -- : response-header: content-length => 178
+D, [2014-10-23T20:12:16.448057 #678] DEBUG -- : response-header: connection => keep-alive
+D, [2014-10-23T20:12:16.448103 #678] DEBUG -- : response-header: location => https://www.dropbox.com/
+D, [2014-10-23T20:12:16.448149 #678] DEBUG -- : response-header: strict-transport-security => max-age=2592000
+D, [2014-10-23T20:12:16.448279 #678] DEBUG -- : Read 178 bytes (178 total)
+I, [2014-10-23T20:12:16.448725 #678]  INFO -- : follow redirect to: https://www.dropbox.com/
+I, [2014-10-23T20:12:16.449676 #678]  INFO -- : Net::HTTP::Get: /
+D, [2014-10-23T20:12:16.449735 #678] DEBUG -- : request-header: accept-encoding => gzip,deflate,identity
+D, [2014-10-23T20:12:16.449800 #678] DEBUG -- : request-header: accept => */*
+D, [2014-10-23T20:12:16.449847 #678] DEBUG -- : request-header: user-agent => Mechanize/2.7.2 Ruby/2.1.1p76 (http://github.com/sparklemotion/mechanize/)
+D, [2014-10-23T20:12:16.449893 #678] DEBUG -- : request-header: accept-charset => ISO-8859-1,utf-8;q=0.7,*;q=0.7
+D, [2014-10-23T20:12:16.450032 #678] DEBUG -- : request-header: accept-language => en-us,en;q=0.5
+D, [2014-10-23T20:12:16.450081 #678] DEBUG -- : request-header: host => www.dropbox.com
+I, [2014-10-23T20:12:17.356588 #678]  INFO -- : status: Net::HTTPOK 1.1 200 OK
+D, [2014-10-23T20:12:17.356720 #678] DEBUG -- : response-header: server => nginx
+D, [2014-10-23T20:12:17.356777 #678] DEBUG -- : response-header: date => Thu, 23 Oct 2014 20:12:17 GMT
+D, [2014-10-23T20:12:17.356825 #678] DEBUG -- : response-header: content-type => text/html; charset=utf-8
+D, [2014-10-23T20:12:17.356871 #678] DEBUG -- : response-header: transfer-encoding => chunked
+D, [2014-10-23T20:12:17.356916 #678] DEBUG -- : response-header: connection => keep-alive
+D, [2014-10-23T20:12:17.356963 #678] DEBUG -- : response-header: set-cookie => locale=en; Domain=dropbox.com; expires=Tue, 22 Oct 2019 20:12:17 GMT; Path=/, gvc=MzAyNzA2NjI1MDE0MTc1MTkyOTA1MzA5Mjc2NzQwMDM2NzQ3NDI1; expires=Tue, 22 Oct 2019 20:12:17 GMT; Path=/; httponly, t=yg23uy_FTuCzGypxg2BWvLKn; Domain=dropbox.com; expires=Sat, 22 Nov 2014 20:12:17 GMT; Path=/; secure; httponly
+D, [2014-10-23T20:12:17.357024 #678] DEBUG -- : response-header: strict-transport-security => max-age=2592000; includeSubDomains
+D, [2014-10-23T20:12:17.357072 #678] DEBUG -- : response-header: x-server-response-time => 105
+D, [2014-10-23T20:12:17.357118 #678] DEBUG -- : response-header: x-dropbox-request-id => 0f4c5977e0e19fce5ec450dc5e23f394
+D, [2014-10-23T20:12:17.357171 #678] DEBUG -- : response-header: pragma => no-cache
+D, [2014-10-23T20:12:17.357217 #678] DEBUG -- : response-header: cache-control => no-cache
+D, [2014-10-23T20:12:17.357261 #678] DEBUG -- : response-header: x-dropbox-http-protocol => None
+D, [2014-10-23T20:12:17.357306 #678] DEBUG -- : response-header: x-frame-options => SAMEORIGIN
+D, [2014-10-23T20:12:17.357350 #678] DEBUG -- : response-header: content-encoding => gzip
+D, [2014-10-23T20:12:17.357567 #678] DEBUG -- : Read 11141 bytes (11141 total)
+D, [2014-10-23T20:12:17.357722 #678] DEBUG -- : gzip response
+D, [2014-10-23T20:12:17.403594 #678] DEBUG -- : saved cookie: locale=en
+D, [2014-10-23T20:12:17.403927 #678] DEBUG -- : saved cookie: gvc=MzAyNzA2NjI1MDE0MTc1MTkyOTA1MzA5Mjc2NzQwMDM2NzQ3NDI1
+D, [2014-10-23T20:12:17.404301 #678] DEBUG -- : saved cookie: t=yg23uy_FTuCzGypxg2BWvLKn
+I, [2014-10-23T20:13:22.320617 #655]  INFO -- : Net::HTTP::Get: /
+D, [2014-10-23T20:13:22.320879 #655] DEBUG -- : request-header: accept-encoding => gzip,deflate,identity
+D, [2014-10-23T20:13:22.320934 #655] DEBUG -- : request-header: accept => */*
+D, [2014-10-23T20:13:22.320983 #655] DEBUG -- : request-header: user-agent => Mechanize/2.7.2 Ruby/2.1.1p76 (http://github.com/sparklemotion/mechanize/)
+D, [2014-10-23T20:13:22.321032 #655] DEBUG -- : request-header: accept-charset => ISO-8859-1,utf-8;q=0.7,*;q=0.7
+D, [2014-10-23T20:13:22.321079 #655] DEBUG -- : request-header: accept-language => en-us,en;q=0.5
+D, [2014-10-23T20:13:22.321127 #655] DEBUG -- : request-header: host => dropbox.com
+I, [2014-10-23T20:13:22.910414 #655]  INFO -- : status: Net::HTTPMovedPermanently 1.1 301 Moved Permanently
+D, [2014-10-23T20:13:22.910667 #655] DEBUG -- : response-header: server => nginx
+D, [2014-10-23T20:13:22.910721 #655] DEBUG -- : response-header: date => Thu, 23 Oct 2014 20:13:22 GMT
+D, [2014-10-23T20:13:22.910769 #655] DEBUG -- : response-header: content-type => text/html
+D, [2014-10-23T20:13:22.910830 #655] DEBUG -- : response-header: content-length => 178
+D, [2014-10-23T20:13:22.910882 #655] DEBUG -- : response-header: connection => keep-alive
+D, [2014-10-23T20:13:22.910932 #655] DEBUG -- : response-header: location => https://dropbox.com/
+D, [2014-10-23T20:13:22.911181 #655] DEBUG -- : Read 178 bytes (178 total)
+I, [2014-10-23T20:13:22.911950 #655]  INFO -- : follow redirect to: https://dropbox.com/
+I, [2014-10-23T20:13:22.921165 #655]  INFO -- : Net::HTTP::Get: /
+D, [2014-10-23T20:13:22.921254 #655] DEBUG -- : request-header: accept-encoding => gzip,deflate,identity
+D, [2014-10-23T20:13:22.921415 #655] DEBUG -- : request-header: accept => */*
+D, [2014-10-23T20:13:22.921468 #655] DEBUG -- : request-header: user-agent => Mechanize/2.7.2 Ruby/2.1.1p76 (http://github.com/sparklemotion/mechanize/)
+D, [2014-10-23T20:13:22.921516 #655] DEBUG -- : request-header: accept-charset => ISO-8859-1,utf-8;q=0.7,*;q=0.7
+D, [2014-10-23T20:13:22.921632 #655] DEBUG -- : request-header: accept-language => en-us,en;q=0.5
+D, [2014-10-23T20:13:22.921688 #655] DEBUG -- : request-header: host => dropbox.com
+I, [2014-10-23T20:13:24.115254 #655]  INFO -- : status: Net::HTTPMovedPermanently 1.1 301 Moved Permanently
+D, [2014-10-23T20:13:24.115396 #655] DEBUG -- : response-header: server => nginx
+D, [2014-10-23T20:13:24.115463 #655] DEBUG -- : response-header: date => Thu, 23 Oct 2014 20:13:24 GMT
+D, [2014-10-23T20:13:24.115525 #655] DEBUG -- : response-header: content-type => text/html
+D, [2014-10-23T20:13:24.115578 #655] DEBUG -- : response-header: content-length => 178
+D, [2014-10-23T20:13:24.115654 #655] DEBUG -- : response-header: connection => keep-alive
+D, [2014-10-23T20:13:24.115707 #655] DEBUG -- : response-header: location => https://www.dropbox.com/
+D, [2014-10-23T20:13:24.115769 #655] DEBUG -- : response-header: strict-transport-security => max-age=2592000
+D, [2014-10-23T20:13:24.115973 #655] DEBUG -- : Read 178 bytes (178 total)
+I, [2014-10-23T20:13:24.116462 #655]  INFO -- : follow redirect to: https://www.dropbox.com/
+I, [2014-10-23T20:13:24.117513 #655]  INFO -- : Net::HTTP::Get: /
+D, [2014-10-23T20:13:24.117642 #655] DEBUG -- : request-header: accept-encoding => gzip,deflate,identity
+D, [2014-10-23T20:13:24.117696 #655] DEBUG -- : request-header: accept => */*
+D, [2014-10-23T20:13:24.117745 #655] DEBUG -- : request-header: user-agent => Mechanize/2.7.2 Ruby/2.1.1p76 (http://github.com/sparklemotion/mechanize/)
+D, [2014-10-23T20:13:24.117794 #655] DEBUG -- : request-header: accept-charset => ISO-8859-1,utf-8;q=0.7,*;q=0.7
+D, [2014-10-23T20:13:24.117843 #655] DEBUG -- : request-header: accept-language => en-us,en;q=0.5
+D, [2014-10-23T20:13:24.117891 #655] DEBUG -- : request-header: host => www.dropbox.com
+I, [2014-10-23T20:13:25.623226 #655]  INFO -- : status: Net::HTTPOK 1.1 200 OK
+D, [2014-10-23T20:13:25.623390 #655] DEBUG -- : response-header: server => nginx
+D, [2014-10-23T20:13:25.623542 #655] DEBUG -- : response-header: date => Thu, 23 Oct 2014 20:13:25 GMT
+D, [2014-10-23T20:13:25.623592 #655] DEBUG -- : response-header: content-type => text/html; charset=utf-8
+D, [2014-10-23T20:13:25.623639 #655] DEBUG -- : response-header: transfer-encoding => chunked
+D, [2014-10-23T20:13:25.623686 #655] DEBUG -- : response-header: connection => keep-alive
+D, [2014-10-23T20:13:25.623734 #655] DEBUG -- : response-header: set-cookie => locale=en; Domain=dropbox.com; expires=Tue, 22 Oct 2019 20:13:25 GMT; Path=/, gvc=MjI4Njg0NTc4MzcxMjI2ODU0OTE1NjQwMDUyNjk1OTExMzY2Mjg1; expires=Tue, 22 Oct 2019 20:13:25 GMT; Path=/; httponly, t=jtVBK0OxSMML0f_QhTY3o32s; Domain=dropbox.com; expires=Sat, 22 Nov 2014 20:13:25 GMT; Path=/; secure; httponly
+D, [2014-10-23T20:13:25.623782 #655] DEBUG -- : response-header: strict-transport-security => max-age=2592000; includeSubDomains
+D, [2014-10-23T20:13:25.623829 #655] DEBUG -- : response-header: x-server-response-time => 110
+D, [2014-10-23T20:13:25.623877 #655] DEBUG -- : response-header: x-dropbox-request-id => 0221a14cf7d09abf6c28a50598862d58
+D, [2014-10-23T20:13:25.623925 #655] DEBUG -- : response-header: pragma => no-cache
+D, [2014-10-23T20:13:25.624073 #655] DEBUG -- : response-header: cache-control => no-cache
+D, [2014-10-23T20:13:25.624122 #655] DEBUG -- : response-header: x-dropbox-http-protocol => None
+D, [2014-10-23T20:13:25.624169 #655] DEBUG -- : response-header: x-frame-options => SAMEORIGIN
+D, [2014-10-23T20:13:25.624217 #655] DEBUG -- : response-header: content-encoding => gzip
+D, [2014-10-23T20:13:25.624460 #655] DEBUG -- : Read 11148 bytes (11148 total)
+D, [2014-10-23T20:13:25.624684 #655] DEBUG -- : gzip response
+D, [2014-10-23T20:13:25.686442 #655] DEBUG -- : saved cookie: locale=en
+D, [2014-10-23T20:13:25.686811 #655] DEBUG -- : saved cookie: gvc=MjI4Njg0NTc4MzcxMjI2ODU0OTE1NjQwMDUyNjk1OTExMzY2Mjg1
+D, [2014-10-23T20:13:25.691586 #655] DEBUG -- : saved cookie: t=jtVBK0OxSMML0f_QhTY3o32s
+I, [2014-10-23T20:16:02.784325 #693]  INFO -- : Net::HTTP::Get: /
+D, [2014-10-23T20:16:02.784471 #693] DEBUG -- : request-header: accept-encoding => gzip,deflate,identity
+D, [2014-10-23T20:16:02.784523 #693] DEBUG -- : request-header: accept => */*
+D, [2014-10-23T20:16:02.784571 #693] DEBUG -- : request-header: user-agent => Mechanize/2.7.2 Ruby/2.1.1p76 (http://github.com/sparklemotion/mechanize/)
+D, [2014-10-23T20:16:02.784618 #693] DEBUG -- : request-header: accept-charset => ISO-8859-1,utf-8;q=0.7,*;q=0.7
+D, [2014-10-23T20:16:02.784663 #693] DEBUG -- : request-header: accept-language => en-us,en;q=0.5
+D, [2014-10-23T20:16:02.784709 #693] DEBUG -- : request-header: host => dropbox.com
+I, [2014-10-23T20:16:03.201629 #693]  INFO -- : status: Net::HTTPMovedPermanently 1.1 301 Moved Permanently
+D, [2014-10-23T20:16:03.201785 #693] DEBUG -- : response-header: server => nginx
+D, [2014-10-23T20:16:03.201854 #693] DEBUG -- : response-header: date => Thu, 23 Oct 2014 20:16:03 GMT
+D, [2014-10-23T20:16:03.201931 #693] DEBUG -- : response-header: content-type => text/html
+D, [2014-10-23T20:16:03.201982 #693] DEBUG -- : response-header: content-length => 178
+D, [2014-10-23T20:16:03.202028 #693] DEBUG -- : response-header: connection => keep-alive
+D, [2014-10-23T20:16:03.202074 #693] DEBUG -- : response-header: location => https://dropbox.com/
+D, [2014-10-23T20:16:03.202253 #693] DEBUG -- : Read 178 bytes (178 total)
+I, [2014-10-23T20:16:03.202796 #693]  INFO -- : follow redirect to: https://dropbox.com/
+I, [2014-10-23T20:16:03.203743 #693]  INFO -- : Net::HTTP::Get: /
+D, [2014-10-23T20:16:03.203804 #693] DEBUG -- : request-header: accept-encoding => gzip,deflate,identity
+D, [2014-10-23T20:16:03.203854 #693] DEBUG -- : request-header: accept => */*
+D, [2014-10-23T20:16:03.203901 #693] DEBUG -- : request-header: user-agent => Mechanize/2.7.2 Ruby/2.1.1p76 (http://github.com/sparklemotion/mechanize/)
+D, [2014-10-23T20:16:03.203964 #693] DEBUG -- : request-header: accept-charset => ISO-8859-1,utf-8;q=0.7,*;q=0.7
+D, [2014-10-23T20:16:03.204012 #693] DEBUG -- : request-header: accept-language => en-us,en;q=0.5
+D, [2014-10-23T20:16:03.204057 #693] DEBUG -- : request-header: host => dropbox.com
+I, [2014-10-23T20:16:03.986140 #693]  INFO -- : status: Net::HTTPMovedPermanently 1.1 301 Moved Permanently
+D, [2014-10-23T20:16:03.986312 #693] DEBUG -- : response-header: server => nginx
+D, [2014-10-23T20:16:03.986363 #693] DEBUG -- : response-header: date => Thu, 23 Oct 2014 20:16:03 GMT
+D, [2014-10-23T20:16:03.986410 #693] DEBUG -- : response-header: content-type => text/html
+D, [2014-10-23T20:16:03.986456 #693] DEBUG -- : response-header: content-length => 178
+D, [2014-10-23T20:16:03.986502 #693] DEBUG -- : response-header: connection => keep-alive
+D, [2014-10-23T20:16:03.986559 #693] DEBUG -- : response-header: location => https://www.dropbox.com/
+D, [2014-10-23T20:16:03.986625 #693] DEBUG -- : response-header: strict-transport-security => max-age=2592000
+D, [2014-10-23T20:16:03.986748 #693] DEBUG -- : Read 178 bytes (178 total)
+I, [2014-10-23T20:16:03.987205 #693]  INFO -- : follow redirect to: https://www.dropbox.com/
+I, [2014-10-23T20:16:03.988123 #693]  INFO -- : Net::HTTP::Get: /
+D, [2014-10-23T20:16:03.988201 #693] DEBUG -- : request-header: accept-encoding => gzip,deflate,identity
+D, [2014-10-23T20:16:03.988250 #693] DEBUG -- : request-header: accept => */*
+D, [2014-10-23T20:16:03.988297 #693] DEBUG -- : request-header: user-agent => Mechanize/2.7.2 Ruby/2.1.1p76 (http://github.com/sparklemotion/mechanize/)
+D, [2014-10-23T20:16:03.988354 #693] DEBUG -- : request-header: accept-charset => ISO-8859-1,utf-8;q=0.7,*;q=0.7
+D, [2014-10-23T20:16:03.988402 #693] DEBUG -- : request-header: accept-language => en-us,en;q=0.5
+D, [2014-10-23T20:16:03.988448 #693] DEBUG -- : request-header: host => www.dropbox.com
+I, [2014-10-23T20:16:04.887504 #693]  INFO -- : status: Net::HTTPOK 1.1 200 OK
+D, [2014-10-23T20:16:04.887645 #693] DEBUG -- : response-header: server => nginx
+D, [2014-10-23T20:16:04.887696 #693] DEBUG -- : response-header: date => Thu, 23 Oct 2014 20:16:04 GMT
+D, [2014-10-23T20:16:04.887743 #693] DEBUG -- : response-header: content-type => text/html; charset=utf-8
+D, [2014-10-23T20:16:04.887790 #693] DEBUG -- : response-header: transfer-encoding => chunked
+D, [2014-10-23T20:16:04.887835 #693] DEBUG -- : response-header: connection => keep-alive
+D, [2014-10-23T20:16:04.887883 #693] DEBUG -- : response-header: set-cookie => locale=en; Domain=dropbox.com; expires=Tue, 22 Oct 2019 20:16:04 GMT; Path=/, gvc=MTUzNDgzNTk3NDg4NTI0NDcyODE2MTU5NjIzNjk2MzgwOTE0NDM%3D; expires=Tue, 22 Oct 2019 20:16:04 GMT; Path=/; httponly, t=12kfIyGq55BAS66syuJJAUsc; Domain=dropbox.com; expires=Sat, 22 Nov 2014 20:16:04 GMT; Path=/; secure; httponly
+D, [2014-10-23T20:16:04.887945 #693] DEBUG -- : response-header: strict-transport-security => max-age=2592000; includeSubDomains
+D, [2014-10-23T20:16:04.888003 #693] DEBUG -- : response-header: x-server-response-time => 98
+D, [2014-10-23T20:16:04.888050 #693] DEBUG -- : response-header: x-dropbox-request-id => 063f1a29a9fcd66cf7a21be6cff50614
+D, [2014-10-23T20:16:04.888096 #693] DEBUG -- : response-header: pragma => no-cache
+D, [2014-10-23T20:16:04.888141 #693] DEBUG -- : response-header: cache-control => no-cache
+D, [2014-10-23T20:16:04.888186 #693] DEBUG -- : response-header: x-dropbox-http-protocol => None
+D, [2014-10-23T20:16:04.888234 #693] DEBUG -- : response-header: x-frame-options => SAMEORIGIN
+D, [2014-10-23T20:16:04.888290 #693] DEBUG -- : response-header: content-encoding => gzip
+D, [2014-10-23T20:16:04.888496 #693] DEBUG -- : Read 11147 bytes (11147 total)
+D, [2014-10-23T20:16:04.888656 #693] DEBUG -- : gzip response
+D, [2014-10-23T20:16:04.912015 #693] DEBUG -- : saved cookie: locale=en
+D, [2014-10-23T20:16:04.912316 #693] DEBUG -- : saved cookie: gvc=MTUzNDgzNTk3NDg4NTI0NDcyODE2MTU5NjIzNjk2MzgwOTE0NDM%3D
+D, [2014-10-23T20:16:04.920557 #693] DEBUG -- : saved cookie: t=12kfIyGq55BAS66syuJJAUsc
+I, [2014-10-23T20:16:04.954135 #693]  INFO -- : form encoding: UTF-8
+D, [2014-10-23T20:16:04.954804 #693] DEBUG -- : query: "t=12kfIyGq55BAS66syuJJAUsc&fname=&lname=&email=trucoso%40gmail.com&password=po1175461loko&register-submit=1&signup=1"
+I, [2014-10-23T20:16:04.955747 #693]  INFO -- : Net::HTTP::Post: /
+D, [2014-10-23T20:16:04.955820 #693] DEBUG -- : request-header: accept-encoding => gzip,deflate,identity
+D, [2014-10-23T20:16:04.955871 #693] DEBUG -- : request-header: accept => */*
+D, [2014-10-23T20:16:04.955918 #693] DEBUG -- : request-header: user-agent => Mechanize/2.7.2 Ruby/2.1.1p76 (http://github.com/sparklemotion/mechanize/)
+D, [2014-10-23T20:16:04.955965 #693] DEBUG -- : request-header: accept-charset => ISO-8859-1,utf-8;q=0.7,*;q=0.7
+D, [2014-10-23T20:16:04.957970 #693] DEBUG -- : request-header: accept-language => en-us,en;q=0.5
+D, [2014-10-23T20:16:04.958032 #693] DEBUG -- : request-header: cookie => gvc=MTUzNDgzNTk3NDg4NTI0NDcyODE2MTU5NjIzNjk2MzgwOTE0NDM%3D; locale=en; t=12kfIyGq55BAS66syuJJAUsc
+D, [2014-10-23T20:16:04.958098 #693] DEBUG -- : request-header: host => www.dropbox.com
+D, [2014-10-23T20:16:04.960636 #693] DEBUG -- : request-header: referer => https://www.dropbox.com/
+D, [2014-10-23T20:16:04.960690 #693] DEBUG -- : request-header: content-type => application/x-www-form-urlencoded
+D, [2014-10-23T20:16:04.960736 #693] DEBUG -- : request-header: content-length => 116
+I, [2014-10-23T20:16:05.307391 #693]  INFO -- : status: Net::HTTPOK 1.1 200 OK
+D, [2014-10-23T20:16:05.307523 #693] DEBUG -- : response-header: server => nginx
+D, [2014-10-23T20:16:05.307573 #693] DEBUG -- : response-header: date => Thu, 23 Oct 2014 20:16:05 GMT
+D, [2014-10-23T20:16:05.307628 #693] DEBUG -- : response-header: content-type => text/html; charset=utf-8
+D, [2014-10-23T20:16:05.307675 #693] DEBUG -- : response-header: transfer-encoding => chunked
+D, [2014-10-23T20:16:05.307730 #693] DEBUG -- : response-header: connection => keep-alive
+D, [2014-10-23T20:16:05.307777 #693] DEBUG -- : response-header: strict-transport-security => max-age=2592000; includeSubDomains
+D, [2014-10-23T20:16:05.307823 #693] DEBUG -- : response-header: x-server-response-time => 130
+D, [2014-10-23T20:16:05.307869 #693] DEBUG -- : response-header: x-dropbox-request-id => cd0905264c70cb66e2ccc8bba0196d9e
+D, [2014-10-23T20:16:05.307914 #693] DEBUG -- : response-header: pragma => no-cache
+D, [2014-10-23T20:16:05.307960 #693] DEBUG -- : response-header: cache-control => no-cache
+D, [2014-10-23T20:16:05.308033 #693] DEBUG -- : response-header: x-dropbox-http-protocol => None
+D, [2014-10-23T20:16:05.308090 #693] DEBUG -- : response-header: x-frame-options => SAMEORIGIN
+D, [2014-10-23T20:16:05.308137 #693] DEBUG -- : response-header: content-encoding => gzip
+D, [2014-10-23T20:16:05.308332 #693] DEBUG -- : Read 11206 bytes (11206 total)
+D, [2014-10-23T20:16:05.308503 #693] DEBUG -- : gzip response
+I, [2014-10-23T20:25:04.650092 #655]  INFO -- : form encoding: UTF-8
+D, [2014-10-23T20:25:04.650620 #655] DEBUG -- : query: "t=jtVBK0OxSMML0f_QhTY3o32s&fname=&lname=&email=trucoso%40gmail.com&password=po1175461loko&register-submit=1&signup=1"
+I, [2014-10-23T20:25:04.651695 #655]  INFO -- : Net::HTTP::Post: /
+D, [2014-10-23T20:25:04.651761 #655] DEBUG -- : request-header: accept-encoding => gzip,deflate,identity
+D, [2014-10-23T20:25:04.651838 #655] DEBUG -- : request-header: accept => */*
+D, [2014-10-23T20:25:04.651889 #655] DEBUG -- : request-header: user-agent => Mechanize/2.7.2 Ruby/2.1.1p76 (http://github.com/sparklemotion/mechanize/)
+D, [2014-10-23T20:25:04.651939 #655] DEBUG -- : request-header: accept-charset => ISO-8859-1,utf-8;q=0.7,*;q=0.7
+D, [2014-10-23T20:25:04.651987 #655] DEBUG -- : request-header: accept-language => en-us,en;q=0.5
+D, [2014-10-23T20:25:04.652036 #655] DEBUG -- : request-header: cookie => gvc=MjI4Njg0NTc4MzcxMjI2ODU0OTE1NjQwMDUyNjk1OTExMzY2Mjg1; locale=en; t=jtVBK0OxSMML0f_QhTY3o32s
+D, [2014-10-23T20:25:04.652084 #655] DEBUG -- : request-header: host => www.dropbox.com
+D, [2014-10-23T20:25:04.652141 #655] DEBUG -- : request-header: referer => https://www.dropbox.com/
+D, [2014-10-23T20:25:04.652192 #655] DEBUG -- : request-header: content-type => application/x-www-form-urlencoded
+D, [2014-10-23T20:25:04.652239 #655] DEBUG -- : request-header: content-length => 116
+I, [2014-10-23T20:25:06.142649 #655]  INFO -- : status: Net::HTTPOK 1.1 200 OK
+D, [2014-10-23T20:25:06.142817 #655] DEBUG -- : response-header: server => nginx
+D, [2014-10-23T20:25:06.142883 #655] DEBUG -- : response-header: date => Thu, 23 Oct 2014 20:25:06 GMT
+D, [2014-10-23T20:25:06.142934 #655] DEBUG -- : response-header: content-type => text/html; charset=utf-8
+D, [2014-10-23T20:25:06.142983 #655] DEBUG -- : response-header: transfer-encoding => chunked
+D, [2014-10-23T20:25:06.143055 #655] DEBUG -- : response-header: connection => keep-alive
+D, [2014-10-23T20:25:06.143106 #655] DEBUG -- : response-header: strict-transport-security => max-age=2592000; includeSubDomains
+D, [2014-10-23T20:25:06.143156 #655] DEBUG -- : response-header: x-server-response-time => 112
+D, [2014-10-23T20:25:06.143204 #655] DEBUG -- : response-header: x-dropbox-request-id => ab64aacb87663bc591a473f1bea4eb76
+D, [2014-10-23T20:25:06.143253 #655] DEBUG -- : response-header: pragma => no-cache
+D, [2014-10-23T20:25:06.143302 #655] DEBUG -- : response-header: cache-control => no-cache
+D, [2014-10-23T20:25:06.143350 #655] DEBUG -- : response-header: x-dropbox-http-protocol => None
+D, [2014-10-23T20:25:06.143398 #655] DEBUG -- : response-header: x-frame-options => SAMEORIGIN
+D, [2014-10-23T20:25:06.143447 #655] DEBUG -- : response-header: content-encoding => gzip
+D, [2014-10-23T20:25:06.143670 #655] DEBUG -- : Read 11199 bytes (11199 total)
+D, [2014-10-23T20:25:06.143852 #655] DEBUG -- : gzip response
+I, [2014-10-23T20:59:17.894517 #812]  INFO -- : Net::HTTP::Get: /
+D, [2014-10-23T20:59:17.894673 #812] DEBUG -- : request-header: accept-encoding => gzip,deflate,identity
+D, [2014-10-23T20:59:17.894736 #812] DEBUG -- : request-header: accept => */*
+D, [2014-10-23T20:59:17.894785 #812] DEBUG -- : request-header: user-agent => Mechanize/2.7.2 Ruby/2.1.1p76 (http://github.com/sparklemotion/mechanize/)
+D, [2014-10-23T20:59:17.894832 #812] DEBUG -- : request-header: accept-charset => ISO-8859-1,utf-8;q=0.7,*;q=0.7
+D, [2014-10-23T20:59:17.894887 #812] DEBUG -- : request-header: accept-language => en-us,en;q=0.5
+D, [2014-10-23T20:59:17.894937 #812] DEBUG -- : request-header: host => movistar.cl
+I, [2014-10-23T20:59:18.130225 #812]  INFO -- : status: Net::HTTPFound 1.1 302 Moved Temporarily
+D, [2014-10-23T20:59:18.130362 #812] DEBUG -- : response-header: location => http://www.movistar.cl/PortalMovistarWeb/appmanager/PortalMovistar/portal?_nfpb=true&_pageLabel=P1000190501270682270315
+D, [2014-10-23T20:59:18.130414 #812] DEBUG -- : response-header: connection => close
+D, [2014-10-23T20:59:18.130472 #812] DEBUG -- : response-header: cache-control => no-cache
+D, [2014-10-23T20:59:18.130536 #812] DEBUG -- : response-header: pragma => no-cache
+D, [2014-10-23T20:59:18.130673 #812] DEBUG -- : Read 0 bytes (0 total)
+I, [2014-10-23T20:59:18.131327 #812]  INFO -- : follow redirect to: http://www.movistar.cl/PortalMovistarWeb/appmanager/PortalMovistar/portal?_nfpb=true&_pageLabel=P1000190501270682270315
+I, [2014-10-23T20:59:18.132311 #812]  INFO -- : Net::HTTP::Get: /PortalMovistarWeb/appmanager/PortalMovistar/portal?_nfpb=true&_pageLabel=P1000190501270682270315
+D, [2014-10-23T20:59:18.132370 #812] DEBUG -- : request-header: accept-encoding => gzip,deflate,identity
+D, [2014-10-23T20:59:18.132419 #812] DEBUG -- : request-header: accept => */*
+D, [2014-10-23T20:59:18.132481 #812] DEBUG -- : request-header: user-agent => Mechanize/2.7.2 Ruby/2.1.1p76 (http://github.com/sparklemotion/mechanize/)
+D, [2014-10-23T20:59:18.132531 #812] DEBUG -- : request-header: accept-charset => ISO-8859-1,utf-8;q=0.7,*;q=0.7
+D, [2014-10-23T20:59:18.132577 #812] DEBUG -- : request-header: accept-language => en-us,en;q=0.5
+D, [2014-10-23T20:59:18.132623 #812] DEBUG -- : request-header: host => www.movistar.cl
+I, [2014-10-23T20:59:18.616696 #812]  INFO -- : status: Net::HTTPOK 1.1 200 OK
+D, [2014-10-23T20:59:18.616859 #812] DEBUG -- : response-header: cache-control => no-cache="Set-Cookie"
+D, [2014-10-23T20:59:18.616912 #812] DEBUG -- : response-header: date => Thu, 23 Oct 2014 20:59:46 GMT
+D, [2014-10-23T20:59:18.616959 #812] DEBUG -- : response-header: transfer-encoding => chunked
+D, [2014-10-23T20:59:18.617024 #812] DEBUG -- : response-header: content-type => text/html; charset=UTF-8
+D, [2014-10-23T20:59:18.617089 #812] DEBUG -- : response-header: set-cookie => JSESSIONID=vK5hJJsCG6wb9DgGGCJDfRXFT7SzPy7PcBFf3XT4XdfM0kmPhSTk!-1887653363; path=/, TLTSID=179987470413061414097632; path=/; domain=.movistar.cl, NSC_mcwt_ovfwp_xxx_npwjtubs_dm=ffffffff09b12d1b45525d5f4f58455e445a4a42151d;path=/;httponly
+D, [2014-10-23T20:59:18.617156 #812] DEBUG -- : response-header: x-powered-by => Servlet/2.5 JSP/2.1
+D, [2014-10-23T20:59:18.617627 #812] DEBUG -- : Read 4072 bytes (4072 total)
+D, [2014-10-23T20:59:18.617749 #812] DEBUG -- : Read 2714 bytes (6786 total)
+D, [2014-10-23T20:59:18.670973 #812] DEBUG -- : Read 1358 bytes (8144 total)
+D, [2014-10-23T20:59:18.671144 #812] DEBUG -- : Read 213 bytes (8357 total)
+D, [2014-10-23T20:59:18.946383 #812] DEBUG -- : Read 2436 bytes (10793 total)
+D, [2014-10-23T20:59:18.947797 #812] DEBUG -- : Read 4072 bytes (14865 total)
+D, [2014-10-23T20:59:19.002118 #812] DEBUG -- : Read 4072 bytes (18937 total)
+D, [2014-10-23T20:59:19.002261 #812] DEBUG -- : Read 4072 bytes (23009 total)
+D, [2014-10-23T20:59:19.002368 #812] DEBUG -- : Read 1354 bytes (24363 total)
+D, [2014-10-23T20:59:19.055297 #812] DEBUG -- : Read 1360 bytes (25723 total)
+D, [2014-10-23T20:59:19.055442 #812] DEBUG -- : Read 1358 bytes (27081 total)
+D, [2014-10-23T20:59:19.055534 #812] DEBUG -- : Read 1354 bytes (28435 total)
+D, [2014-10-23T20:59:19.057096 #812] DEBUG -- : Read 1360 bytes (29795 total)
+D, [2014-10-23T20:59:19.057404 #812] DEBUG -- : Read 1358 bytes (31153 total)
+D, [2014-10-23T20:59:19.057512 #812] DEBUG -- : Read 4072 bytes (35225 total)
+D, [2014-10-23T20:59:19.215625 #812] DEBUG -- : Read 1354 bytes (36579 total)
+D, [2014-10-23T20:59:19.215830 #812] DEBUG -- : Read 2718 bytes (39297 total)
+D, [2014-10-23T20:59:19.215946 #812] DEBUG -- : Read 4072 bytes (43369 total)
+D, [2014-10-23T20:59:19.217291 #812] DEBUG -- : Read 535 bytes (43904 total)
+D, [2014-10-23T20:59:19.270057 #812] DEBUG -- : Read 4072 bytes (47976 total)
+D, [2014-10-23T20:59:19.270262 #812] DEBUG -- : Read 4072 bytes (52048 total)
+D, [2014-10-23T20:59:19.277296 #812] DEBUG -- : Read 1354 bytes (53402 total)
+D, [2014-10-23T20:59:19.324074 #812] DEBUG -- : Read 1360 bytes (54762 total)
+D, [2014-10-23T20:59:19.325223 #812] DEBUG -- : Read 1358 bytes (56120 total)
+D, [2014-10-23T20:59:19.325385 #812] DEBUG -- : Read 4072 bytes (60192 total)
+D, [2014-10-23T20:59:19.325484 #812] DEBUG -- : Read 4072 bytes (64264 total)
+D, [2014-10-23T20:59:19.378511 #812] DEBUG -- : Read 1354 bytes (65618 total)
+D, [2014-10-23T20:59:19.378821 #812] DEBUG -- : Read 2718 bytes (68336 total)
+D, [2014-10-23T20:59:19.378951 #812] DEBUG -- : Read 4072 bytes (72408 total)
+D, [2014-10-23T20:59:19.379037 #812] DEBUG -- : Read 1354 bytes (73762 total)
+D, [2014-10-23T20:59:19.381271 #812] DEBUG -- : Read 2718 bytes (76480 total)
+D, [2014-10-23T20:59:19.434123 #812] DEBUG -- : Read 4072 bytes (80552 total)
+D, [2014-10-23T20:59:19.636801 #812] DEBUG -- : Read 1354 bytes (81906 total)
+D, [2014-10-23T20:59:19.636998 #812] DEBUG -- : Read 2718 bytes (84624 total)
+D, [2014-10-23T20:59:19.637100 #812] DEBUG -- : Read 2714 bytes (87338 total)
+D, [2014-10-23T20:59:19.637284 #812] DEBUG -- : Read 297 bytes (87635 total)
+D, [2014-10-23T20:59:19.691283 #812] DEBUG -- : Read 2714 bytes (90349 total)
+D, [2014-10-23T20:59:19.691738 #812] DEBUG -- : Read 1358 bytes (91707 total)
+D, [2014-10-23T20:59:19.691950 #812] DEBUG -- : Read 4072 bytes (95779 total)
+D, [2014-10-23T20:59:19.692042 #812] DEBUG -- : Read 2714 bytes (98493 total)
+D, [2014-10-23T20:59:19.692132 #812] DEBUG -- : Read 1358 bytes (99851 total)
+D, [2014-10-23T20:59:19.746796 #812] DEBUG -- : Read 1354 bytes (101205 total)
+D, [2014-10-23T20:59:19.746922 #812] DEBUG -- : Read 2718 bytes (103923 total)
+D, [2014-10-23T20:59:19.749293 #812] DEBUG -- : Read 527 bytes (104450 total)
+D, [2014-10-23T20:59:19.775594 #812] DEBUG -- : saved cookie: JSESSIONID=vK5hJJsCG6wb9DgGGCJDfRXFT7SzPy7PcBFf3XT4XdfM0kmPhSTk!-1887653363
+D, [2014-10-23T20:59:19.776119 #812] DEBUG -- : saved cookie: TLTSID=179987470413061414097632
+D, [2014-10-23T20:59:19.776943 #812] DEBUG -- : saved cookie: NSC_mcwt_ovfwp_xxx_npwjtubs_dm=ffffffff09b12d1b45525d5f4f58455e445a4a42151d
+I, [2014-10-23T21:02:01.601855 #835]  INFO -- : Net::HTTP::Get: /
+D, [2014-10-23T21:02:01.605451 #835] DEBUG -- : request-header: accept-encoding => gzip,deflate,identity
+D, [2014-10-23T21:02:01.605508 #835] DEBUG -- : request-header: accept => */*
+D, [2014-10-23T21:02:01.605570 #835] DEBUG -- : request-header: user-agent => Mechanize/2.7.2 Ruby/2.1.1p76 (http://github.com/sparklemotion/mechanize/)
+D, [2014-10-23T21:02:01.605905 #835] DEBUG -- : request-header: accept-charset => ISO-8859-1,utf-8;q=0.7,*;q=0.7
+D, [2014-10-23T21:02:01.606095 #835] DEBUG -- : request-header: accept-language => en-us,en;q=0.5
+D, [2014-10-23T21:02:01.606150 #835] DEBUG -- : request-header: host => movistar.cl
+I, [2014-10-23T21:02:01.730035 #835]  INFO -- : status: Net::HTTPFound 1.1 302 Moved Temporarily
+D, [2014-10-23T21:02:01.730177 #835] DEBUG -- : response-header: location => http://www.movistar.cl/PortalMovistarWeb/appmanager/PortalMovistar/portal?_nfpb=true&_pageLabel=P1000190501270682270315
+D, [2014-10-23T21:02:01.730246 #835] DEBUG -- : response-header: connection => close
+D, [2014-10-23T21:02:01.730294 #835] DEBUG -- : response-header: cache-control => no-cache
+D, [2014-10-23T21:02:01.730340 #835] DEBUG -- : response-header: pragma => no-cache
+D, [2014-10-23T21:02:01.730478 #835] DEBUG -- : Read 0 bytes (0 total)
+I, [2014-10-23T21:02:01.730996 #835]  INFO -- : follow redirect to: http://www.movistar.cl/PortalMovistarWeb/appmanager/PortalMovistar/portal?_nfpb=true&_pageLabel=P1000190501270682270315
+I, [2014-10-23T21:02:01.731962 #835]  INFO -- : Net::HTTP::Get: /PortalMovistarWeb/appmanager/PortalMovistar/portal?_nfpb=true&_pageLabel=P1000190501270682270315
+D, [2014-10-23T21:02:01.732023 #835] DEBUG -- : request-header: accept-encoding => gzip,deflate,identity
+D, [2014-10-23T21:02:01.732072 #835] DEBUG -- : request-header: accept => */*
+D, [2014-10-23T21:02:01.732119 #835] DEBUG -- : request-header: user-agent => Mechanize/2.7.2 Ruby/2.1.1p76 (http://github.com/sparklemotion/mechanize/)
+D, [2014-10-23T21:02:01.732179 #835] DEBUG -- : request-header: accept-charset => ISO-8859-1,utf-8;q=0.7,*;q=0.7
+D, [2014-10-23T21:02:01.732229 #835] DEBUG -- : request-header: accept-language => en-us,en;q=0.5
+D, [2014-10-23T21:02:01.732275 #835] DEBUG -- : request-header: host => www.movistar.cl
+I, [2014-10-23T21:02:01.926332 #835]  INFO -- : status: Net::HTTPOK 1.1 200 OK
+D, [2014-10-23T21:02:01.926500 #835] DEBUG -- : response-header: cache-control => no-cache="Set-Cookie"
+D, [2014-10-23T21:02:01.926552 #835] DEBUG -- : response-header: date => Thu, 23 Oct 2014 21:03:05 GMT
+D, [2014-10-23T21:02:01.926599 #835] DEBUG -- : response-header: transfer-encoding => chunked
+D, [2014-10-23T21:02:01.926645 #835] DEBUG -- : response-header: content-type => text/html; charset=UTF-8
+D, [2014-10-23T21:02:01.926700 #835] DEBUG -- : response-header: set-cookie => JSESSIONID=3T8cJJtJpx1QbpQGyb8LnS25rvgWN8BSrgnvrnypP5fdGkpZhCL5!1145634619; path=/, TLTSID=179987470101931414097796; path=/; domain=.movistar.cl, NSC_mcwt_ovfwp_xxx_npwjtubs_dm=ffffffff09b2001e45525d5f4f58455e445a4a42151d;path=/;httponly
+D, [2014-10-23T21:02:01.926748 #835] DEBUG -- : response-header: x-powered-by => Servlet/2.5 JSP/2.1
+D, [2014-10-23T21:02:01.927098 #835] DEBUG -- : Read 1354 bytes (1354 total)
+D, [2014-10-23T21:02:01.980112 #835] DEBUG -- : Read 2718 bytes (4072 total)
+D, [2014-10-23T21:02:01.980427 #835] DEBUG -- : Read 2714 bytes (6786 total)
+D, [2014-10-23T21:02:02.033792 #835] DEBUG -- : Read 1358 bytes (8144 total)
+D, [2014-10-23T21:02:02.034069 #835] DEBUG -- : Read 212 bytes (8356 total)
+D, [2014-10-23T21:02:02.294572 #835] DEBUG -- : Read 2435 bytes (10791 total)
+D, [2014-10-23T21:02:02.298050 #835] DEBUG -- : Read 4072 bytes (14863 total)
+D, [2014-10-23T21:02:02.348122 #835] DEBUG -- : Read 1354 bytes (16217 total)
+D, [2014-10-23T21:02:02.348286 #835] DEBUG -- : Read 1360 bytes (17577 total)
+D, [2014-10-23T21:02:02.349553 #835] DEBUG -- : Read 1358 bytes (18935 total)
+D, [2014-10-23T21:02:02.349675 #835] DEBUG -- : Read 4072 bytes (23007 total)
+D, [2014-10-23T21:02:02.402303 #835] DEBUG -- : Read 2714 bytes (25721 total)
+D, [2014-10-23T21:02:02.403142 #835] DEBUG -- : Read 1358 bytes (27079 total)
+D, [2014-10-23T21:02:02.403220 #835] DEBUG -- : Read 1354 bytes (28433 total)
+D, [2014-10-23T21:02:02.403538 #835] DEBUG -- : Read 1360 bytes (29793 total)
+D, [2014-10-23T21:02:02.403692 #835] DEBUG -- : Read 1358 bytes (31151 total)
+D, [2014-10-23T21:02:02.544233 #835] DEBUG -- : Read 4072 bytes (35223 total)
+D, [2014-10-23T21:02:02.544422 #835] DEBUG -- : Read 4072 bytes (39295 total)
+D, [2014-10-23T21:02:02.544520 #835] DEBUG -- : Read 1354 bytes (40649 total)
+D, [2014-10-23T21:02:02.589274 #835] DEBUG -- : Read 1360 bytes (42009 total)
+D, [2014-10-23T21:02:02.590089 #835] DEBUG -- : Read 1358 bytes (43367 total)
+D, [2014-10-23T21:02:02.590186 #835] DEBUG -- : Read 494 bytes (43861 total)
+D, [2014-10-23T21:02:02.590270 #835] DEBUG -- : Read 2212 bytes (46073 total)
+D, [2014-10-23T21:02:02.592287 #835] DEBUG -- : Read 1360 bytes (47433 total)
+D, [2014-10-23T21:02:02.592557 #835] DEBUG -- : Read 500 bytes (47933 total)
+D, [2014-10-23T21:02:02.592743 #835] DEBUG -- : Read 3572 bytes (51505 total)
+D, [2014-10-23T21:02:02.644138 #835] DEBUG -- : Read 500 bytes (52005 total)
+D, [2014-10-23T21:02:02.644370 #835] DEBUG -- : Read 2212 bytes (54217 total)
+D, [2014-10-23T21:02:02.644477 #835] DEBUG -- : Read 1860 bytes (56077 total)
+D, [2014-10-23T21:02:02.644545 #835] DEBUG -- : Read 852 bytes (56929 total)
+D, [2014-10-23T21:02:02.646650 #835] DEBUG -- : Read 3220 bytes (60149 total)
+D, [2014-10-23T21:02:02.646739 #835] DEBUG -- : Read 2212 bytes (62361 total)
+D, [2014-10-23T21:02:02.756370 #835] DEBUG -- : Read 1860 bytes (64221 total)
+D, [2014-10-23T21:02:02.756589 #835] DEBUG -- : Read 4072 bytes (68293 total)
+D, [2014-10-23T21:02:02.756700 #835] DEBUG -- : Read 4072 bytes (72365 total)
+D, [2014-10-23T21:02:02.756802 #835] DEBUG -- : Read 852 bytes (73217 total)
+D, [2014-10-23T21:02:02.790096 #835] DEBUG -- : Read 3220 bytes (76437 total)
+D, [2014-10-23T21:02:02.790286 #835] DEBUG -- : Read 3572 bytes (80009 total)
+D, [2014-10-23T21:02:02.792130 #835] DEBUG -- : Read 500 bytes (80509 total)
+D, [2014-10-23T21:02:03.280058 #835] DEBUG -- : Read 4072 bytes (84581 total)
+D, [2014-10-23T21:02:03.334004 #835] DEBUG -- : Read 1354 bytes (85935 total)
+D, [2014-10-23T21:02:03.334189 #835] DEBUG -- : Read 1652 bytes (87587 total)
+D, [2014-10-23T21:02:03.334316 #835] DEBUG -- : Read 4072 bytes (91659 total)
+D, [2014-10-23T21:02:03.334402 #835] DEBUG -- : Read 1060 bytes (92719 total)
+D, [2014-10-23T21:02:03.388073 #835] DEBUG -- : Read 3012 bytes (95731 total)
+D, [2014-10-23T21:02:03.388252 #835] DEBUG -- : Read 4072 bytes (99803 total)
+D, [2014-10-23T21:02:03.388808 #835] DEBUG -- : Read 1060 bytes (100863 total)
+D, [2014-10-23T21:02:03.391301 #835] DEBUG -- : Read 1360 bytes (102223 total)
+D, [2014-10-23T21:02:03.441860 #835] DEBUG -- : Read 1652 bytes (103875 total)
+D, [2014-10-23T21:02:03.442097 #835] DEBUG -- : Read 523 bytes (104398 total)
+D, [2014-10-23T21:02:03.472235 #835] DEBUG -- : saved cookie: JSESSIONID=3T8cJJtJpx1QbpQGyb8LnS25rvgWN8BSrgnvrnypP5fdGkpZhCL5!1145634619
+D, [2014-10-23T21:02:03.474254 #835] DEBUG -- : saved cookie: TLTSID=179987470101931414097796
+D, [2014-10-23T21:02:03.474445 #835] DEBUG -- : saved cookie: NSC_mcwt_ovfwp_xxx_npwjtubs_dm=ffffffff09b2001e45525d5f4f58455e445a4a42151d
+I, [2014-10-23T21:02:21.591953 #843]  INFO -- : Net::HTTP::Get: /
+D, [2014-10-23T21:02:21.592091 #843] DEBUG -- : request-header: accept-encoding => gzip,deflate,identity
+D, [2014-10-23T21:02:21.592143 #843] DEBUG -- : request-header: accept => */*
+D, [2014-10-23T21:02:21.592190 #843] DEBUG -- : request-header: user-agent => Mechanize/2.7.2 Ruby/2.1.1p76 (http://github.com/sparklemotion/mechanize/)
+D, [2014-10-23T21:02:21.592235 #843] DEBUG -- : request-header: accept-charset => ISO-8859-1,utf-8;q=0.7,*;q=0.7
+D, [2014-10-23T21:02:21.592281 #843] DEBUG -- : request-header: accept-language => en-us,en;q=0.5
+D, [2014-10-23T21:02:21.592326 #843] DEBUG -- : request-header: host => movistar.cl
+I, [2014-10-23T21:02:21.703910 #843]  INFO -- : status: Net::HTTPFound 1.1 302 Moved Temporarily
+D, [2014-10-23T21:02:21.704036 #843] DEBUG -- : response-header: location => http://www.movistar.cl/PortalMovistarWeb/appmanager/PortalMovistar/portal?_nfpb=true&_pageLabel=P1000190501270682270315
+D, [2014-10-23T21:02:21.704087 #843] DEBUG -- : response-header: connection => close
+D, [2014-10-23T21:02:21.704134 #843] DEBUG -- : response-header: cache-control => no-cache
+D, [2014-10-23T21:02:21.704181 #843] DEBUG -- : response-header: pragma => no-cache
+D, [2014-10-23T21:02:21.704321 #843] DEBUG -- : Read 0 bytes (0 total)
+I, [2014-10-23T21:02:21.704934 #843]  INFO -- : follow redirect to: http://www.movistar.cl/PortalMovistarWeb/appmanager/PortalMovistar/portal?_nfpb=true&_pageLabel=P1000190501270682270315
+I, [2014-10-23T21:02:21.706124 #843]  INFO -- : Net::HTTP::Get: /PortalMovistarWeb/appmanager/PortalMovistar/portal?_nfpb=true&_pageLabel=P1000190501270682270315
+D, [2014-10-23T21:02:21.706185 #843] DEBUG -- : request-header: accept-encoding => gzip,deflate,identity
+D, [2014-10-23T21:02:21.706234 #843] DEBUG -- : request-header: accept => */*
+D, [2014-10-23T21:02:21.706281 #843] DEBUG -- : request-header: user-agent => Mechanize/2.7.2 Ruby/2.1.1p76 (http://github.com/sparklemotion/mechanize/)
+D, [2014-10-23T21:02:21.706338 #843] DEBUG -- : request-header: accept-charset => ISO-8859-1,utf-8;q=0.7,*;q=0.7
+D, [2014-10-23T21:02:21.706386 #843] DEBUG -- : request-header: accept-language => en-us,en;q=0.5
+D, [2014-10-23T21:02:21.706435 #843] DEBUG -- : request-header: host => www.movistar.cl
+I, [2014-10-23T21:02:21.885362 #843]  INFO -- : status: Net::HTTPOK 1.1 200 OK
+D, [2014-10-23T21:02:21.885513 #843] DEBUG -- : response-header: cache-control => no-cache="Set-Cookie"
+D, [2014-10-23T21:02:21.885578 #843] DEBUG -- : response-header: date => Thu, 23 Oct 2014 21:02:49 GMT
+D, [2014-10-23T21:02:21.885651 #843] DEBUG -- : response-header: transfer-encoding => chunked
+D, [2014-10-23T21:02:21.885706 #843] DEBUG -- : response-header: content-type => text/html; charset=UTF-8
+D, [2014-10-23T21:02:21.885755 #843] DEBUG -- : response-header: set-cookie => JSESSIONID=Xh2xJJsZdFwxNVLcdJQNqnQBykl7y2pvn8rp0X3vQFnv9Zy9Jv7Q!-1887653363; path=/, TLTSID=179987470442971414097815; path=/; domain=.movistar.cl, NSC_mcwt_ovfwp_xxx_npwjtubs_dm=ffffffff09b12d1b45525d5f4f58455e445a4a42151d;path=/;httponly
+D, [2014-10-23T21:02:21.885818 #843] DEBUG -- : response-header: x-powered-by => Servlet/2.5 JSP/2.1
+D, [2014-10-23T21:02:21.886264 #843] DEBUG -- : Read 4072 bytes (4072 total)
+D, [2014-10-23T21:02:21.886382 #843] DEBUG -- : Read 4072 bytes (8144 total)
+D, [2014-10-23T21:02:21.886456 #843] DEBUG -- : Read 213 bytes (8357 total)
+D, [2014-10-23T21:02:22.171644 #843] DEBUG -- : Read 2436 bytes (10793 total)
+D, [2014-10-23T21:02:22.172871 #843] DEBUG -- : Read 1354 bytes (12147 total)
+D, [2014-10-23T21:02:22.173020 #843] DEBUG -- : Read 2718 bytes (14865 total)
+D, [2014-10-23T21:02:22.173147 #843] DEBUG -- : Read 4072 bytes (18937 total)
+D, [2014-10-23T21:02:22.227788 #843] DEBUG -- : Read 4072 bytes (23009 total)
+D, [2014-10-23T21:02:22.228056 #843] DEBUG -- : Read 4072 bytes (27081 total)
+D, [2014-10-23T21:02:22.228139 #843] DEBUG -- : Read 4072 bytes (31153 total)
+D, [2014-10-23T21:02:22.282364 #843] DEBUG -- : Read 4072 bytes (35225 total)
+D, [2014-10-23T21:02:22.394850 #843] DEBUG -- : Read 4072 bytes (39297 total)
+D, [2014-10-23T21:02:22.395073 #843] DEBUG -- : Read 4072 bytes (43369 total)
+D, [2014-10-23T21:02:22.395527 #843] DEBUG -- : Read 535 bytes (43904 total)
+D, [2014-10-23T21:02:22.450413 #843] DEBUG -- : Read 4072 bytes (47976 total)
+D, [2014-10-23T21:02:22.450662 #843] DEBUG -- : Read 4072 bytes (52048 total)
+D, [2014-10-23T21:02:22.450735 #843] DEBUG -- : Read 2714 bytes (54762 total)
+D, [2014-10-23T21:02:22.503966 #843] DEBUG -- : Read 1358 bytes (56120 total)
+D, [2014-10-23T21:02:22.504149 #843] DEBUG -- : Read 4072 bytes (60192 total)
+D, [2014-10-23T21:02:22.504247 #843] DEBUG -- : Read 2714 bytes (62906 total)
+D, [2014-10-23T21:02:22.507537 #843] DEBUG -- : Read 1358 bytes (64264 total)
+D, [2014-10-23T21:02:22.559100 #843] DEBUG -- : Read 4072 bytes (68336 total)
+D, [2014-10-23T21:02:22.559279 #843] DEBUG -- : Read 4072 bytes (72408 total)
+D, [2014-10-23T21:02:22.559391 #843] DEBUG -- : Read 4072 bytes (76480 total)
+D, [2014-10-23T21:02:22.614127 #843] DEBUG -- : Read 4072 bytes (80552 total)
+D, [2014-10-23T21:02:22.840252 #843] DEBUG -- : Read 4072 bytes (84624 total)
+D, [2014-10-23T21:02:22.840581 #843] DEBUG -- : Read 3011 bytes (87635 total)
+D, [2014-10-23T21:02:22.840725 #843] DEBUG -- : Read 4072 bytes (91707 total)
+D, [2014-10-23T21:02:22.896569 #843] DEBUG -- : Read 4072 bytes (95779 total)
+D, [2014-10-23T21:02:22.896767 #843] DEBUG -- : Read 4072 bytes (99851 total)
+D, [2014-10-23T21:02:22.897409 #843] DEBUG -- : Read 4072 bytes (103923 total)
+D, [2014-10-23T21:02:22.897485 #843] DEBUG -- : Read 527 bytes (104450 total)
+D, [2014-10-23T21:02:22.933518 #843] DEBUG -- : saved cookie: JSESSIONID=Xh2xJJsZdFwxNVLcdJQNqnQBykl7y2pvn8rp0X3vQFnv9Zy9Jv7Q!-1887653363
+D, [2014-10-23T21:02:22.936166 #843] DEBUG -- : saved cookie: TLTSID=179987470442971414097815
+D, [2014-10-23T21:02:22.936346 #843] DEBUG -- : saved cookie: NSC_mcwt_ovfwp_xxx_npwjtubs_dm=ffffffff09b12d1b45525d5f4f58455e445a4a42151d
+I, [2014-10-23T21:02:43.507160 #851]  INFO -- : Net::HTTP::Get: /
+D, [2014-10-23T21:02:43.507782 #851] DEBUG -- : request-header: accept-encoding => gzip,deflate,identity
+D, [2014-10-23T21:02:43.507842 #851] DEBUG -- : request-header: accept => */*
+D, [2014-10-23T21:02:43.508743 #851] DEBUG -- : request-header: user-agent => Mechanize/2.7.2 Ruby/2.1.1p76 (http://github.com/sparklemotion/mechanize/)
+D, [2014-10-23T21:02:43.508798 #851] DEBUG -- : request-header: accept-charset => ISO-8859-1,utf-8;q=0.7,*;q=0.7
+D, [2014-10-23T21:02:43.508893 #851] DEBUG -- : request-header: accept-language => en-us,en;q=0.5
+D, [2014-10-23T21:02:43.509299 #851] DEBUG -- : request-header: host => movistar.cl
+I, [2014-10-23T21:02:43.616385 #851]  INFO -- : status: Net::HTTPFound 1.1 302 Moved Temporarily
+D, [2014-10-23T21:02:43.616514 #851] DEBUG -- : response-header: location => http://www.movistar.cl/PortalMovistarWeb/appmanager/PortalMovistar/portal?_nfpb=true&_pageLabel=P1000190501270682270315
+D, [2014-10-23T21:02:43.616593 #851] DEBUG -- : response-header: connection => close
+D, [2014-10-23T21:02:43.616674 #851] DEBUG -- : response-header: cache-control => no-cache
+D, [2014-10-23T21:02:43.616723 #851] DEBUG -- : response-header: pragma => no-cache
+D, [2014-10-23T21:02:43.616886 #851] DEBUG -- : Read 0 bytes (0 total)
+I, [2014-10-23T21:02:43.617434 #851]  INFO -- : follow redirect to: http://www.movistar.cl/PortalMovistarWeb/appmanager/PortalMovistar/portal?_nfpb=true&_pageLabel=P1000190501270682270315
+I, [2014-10-23T21:02:43.618593 #851]  INFO -- : Net::HTTP::Get: /PortalMovistarWeb/appmanager/PortalMovistar/portal?_nfpb=true&_pageLabel=P1000190501270682270315
+D, [2014-10-23T21:02:43.618655 #851] DEBUG -- : request-header: accept-encoding => gzip,deflate,identity
+D, [2014-10-23T21:02:43.618705 #851] DEBUG -- : request-header: accept => */*
+D, [2014-10-23T21:02:43.618752 #851] DEBUG -- : request-header: user-agent => Mechanize/2.7.2 Ruby/2.1.1p76 (http://github.com/sparklemotion/mechanize/)
+D, [2014-10-23T21:02:43.618800 #851] DEBUG -- : request-header: accept-charset => ISO-8859-1,utf-8;q=0.7,*;q=0.7
+D, [2014-10-23T21:02:43.618847 #851] DEBUG -- : request-header: accept-language => en-us,en;q=0.5
+D, [2014-10-23T21:02:43.618893 #851] DEBUG -- : request-header: host => www.movistar.cl
+I, [2014-10-23T21:02:43.864532 #851]  INFO -- : status: Net::HTTPOK 1.1 200 OK
+D, [2014-10-23T21:02:43.864916 #851] DEBUG -- : response-header: cache-control => no-cache="Set-Cookie"
+D, [2014-10-23T21:02:43.864972 #851] DEBUG -- : response-header: date => Thu, 23 Oct 2014 21:02:44 GMT
+D, [2014-10-23T21:02:43.865022 #851] DEBUG -- : response-header: transfer-encoding => chunked
+D, [2014-10-23T21:02:43.865070 #851] DEBUG -- : response-header: content-type => text/html; charset=UTF-8
+D, [2014-10-23T21:02:43.865119 #851] DEBUG -- : response-header: set-cookie => JSESSIONID=GmrHJJsJJxhP1QvgqdhnCp22LnvJhRtwX8fdNTTfYchLjZ2T0JKq!-1968047764; path=/, TLTSID=179987470612401414097837; path=/; domain=.movistar.cl, NSC_mcwt_ovfwp_xxx_npwjtubs_dm=ffffffff09bd09cd45525d5f4f58455e445a4a42151b;path=/;httponly
+D, [2014-10-23T21:02:43.865205 #851] DEBUG -- : response-header: x-powered-by => Servlet/2.5 JSP/2.1
+D, [2014-10-23T21:02:43.865613 #851] DEBUG -- : Read 4072 bytes (4072 total)
+D, [2014-10-23T21:02:43.865734 #851] DEBUG -- : Read 4072 bytes (8144 total)
+D, [2014-10-23T21:02:43.865800 #851] DEBUG -- : Read 213 bytes (8357 total)
+D, [2014-10-23T21:02:44.276411 #851] DEBUG -- : Read 2436 bytes (10793 total)
+D, [2014-10-23T21:02:44.277090 #851] DEBUG -- : Read 4072 bytes (14865 total)
+D, [2014-10-23T21:02:44.277356 #851] DEBUG -- : Read 4072 bytes (18937 total)
+D, [2014-10-23T21:02:44.277450 #851] DEBUG -- : Read 2714 bytes (21651 total)
+D, [2014-10-23T21:02:44.279764 #851] DEBUG -- : Read 1358 bytes (23009 total)
+D, [2014-10-23T21:02:44.333800 #851] DEBUG -- : Read 1354 bytes (24363 total)
+D, [2014-10-23T21:02:44.334320 #851] DEBUG -- : Read 2718 bytes (27081 total)
+D, [2014-10-23T21:02:44.334411 #851] DEBUG -- : Read 4072 bytes (31153 total)
+D, [2014-10-23T21:02:44.334522 #851] DEBUG -- : Read 4072 bytes (35225 total)
+D, [2014-10-23T21:02:44.493201 #851] DEBUG -- : Read 4072 bytes (39297 total)
+D, [2014-10-23T21:02:44.493422 #851] DEBUG -- : Read 4072 bytes (43369 total)
+D, [2014-10-23T21:02:44.493540 #851] DEBUG -- : Read 535 bytes (43904 total)
+D, [2014-10-23T21:02:44.493654 #851] DEBUG -- : Read 4072 bytes (47976 total)
+D, [2014-10-23T21:02:44.493819 #851] DEBUG -- : Read 3595 bytes (51571 total)
+D, [2014-10-23T21:02:44.494199 #851] DEBUG -- : Read 477 bytes (52048 total)
+D, [2014-10-23T21:02:44.495786 #851] DEBUG -- : Read 4072 bytes (56120 total)
+D, [2014-10-23T21:02:44.545997 #851] DEBUG -- : Read 2714 bytes (58834 total)
+D, [2014-10-23T21:02:44.546167 #851] DEBUG -- : Read 1358 bytes (60192 total)
+D, [2014-10-23T21:02:44.546281 #851] DEBUG -- : Read 4072 bytes (64264 total)
+D, [2014-10-23T21:02:44.546388 #851] DEBUG -- : Read 2714 bytes (66978 total)
+D, [2014-10-23T21:02:44.546707 #851] DEBUG -- : Read 1358 bytes (68336 total)
+D, [2014-10-23T21:02:44.546834 #851] DEBUG -- : Read 2714 bytes (71050 total)
+D, [2014-10-23T21:02:44.547039 #851] DEBUG -- : Read 1358 bytes (72408 total)
+D, [2014-10-23T21:02:44.547194 #851] DEBUG -- : Read 4072 bytes (76480 total)
+D, [2014-10-23T21:02:44.547263 #851] DEBUG -- : Read 1354 bytes (77834 total)
+D, [2014-10-23T21:02:44.551587 #851] DEBUG -- : Read 2718 bytes (80552 total)
+D, [2014-10-23T21:02:45.128099 #851] DEBUG -- : Read 1354 bytes (81906 total)
+D, [2014-10-23T21:02:45.128315 #851] DEBUG -- : Read 2718 bytes (84624 total)
+D, [2014-10-23T21:02:45.128417 #851] DEBUG -- : Read 2631 bytes (87255 total)
+D, [2014-10-23T21:02:45.129147 #851] DEBUG -- : Read 4072 bytes (91327 total)
+D, [2014-10-23T21:02:45.129455 #851] DEBUG -- : Read 4072 bytes (95399 total)
+D, [2014-10-23T21:02:45.129555 #851] DEBUG -- : Read 4072 bytes (99471 total)
+D, [2014-10-23T21:02:45.131324 #851] DEBUG -- : Read 4072 bytes (103543 total)
+D, [2014-10-23T21:02:45.131399 #851] DEBUG -- : Read 527 bytes (104070 total)
+D, [2014-10-23T21:02:45.143689 #851] DEBUG -- : saved cookie: JSESSIONID=GmrHJJsJJxhP1QvgqdhnCp22LnvJhRtwX8fdNTTfYchLjZ2T0JKq!-1968047764
+D, [2014-10-23T21:02:45.144123 #851] DEBUG -- : saved cookie: TLTSID=179987470612401414097837
+D, [2014-10-23T21:02:45.144305 #851] DEBUG -- : saved cookie: NSC_mcwt_ovfwp_xxx_npwjtubs_dm=ffffffff09bd09cd45525d5f4f58455e445a4a42151b
+I, [2014-10-23T21:03:04.694382 #858]  INFO -- : Net::HTTP::Get: /
+D, [2014-10-23T21:03:04.694516 #858] DEBUG -- : request-header: accept-encoding => gzip,deflate,identity
+D, [2014-10-23T21:03:04.694567 #858] DEBUG -- : request-header: accept => */*
+D, [2014-10-23T21:03:04.694615 #858] DEBUG -- : request-header: user-agent => Mechanize/2.7.2 Ruby/2.1.1p76 (http://github.com/sparklemotion/mechanize/)
+D, [2014-10-23T21:03:04.694661 #858] DEBUG -- : request-header: accept-charset => ISO-8859-1,utf-8;q=0.7,*;q=0.7
+D, [2014-10-23T21:03:04.694707 #858] DEBUG -- : request-header: accept-language => en-us,en;q=0.5
+D, [2014-10-23T21:03:04.694766 #858] DEBUG -- : request-header: host => movistar.cl
+I, [2014-10-23T21:03:04.803622 #858]  INFO -- : status: Net::HTTPFound 1.1 302 Moved Temporarily
+D, [2014-10-23T21:03:04.803779 #858] DEBUG -- : response-header: location => http://www.movistar.cl/PortalMovistarWeb/appmanager/PortalMovistar/portal?_nfpb=true&_pageLabel=P1000190501270682270315
+D, [2014-10-23T21:03:04.803833 #858] DEBUG -- : response-header: connection => close
+D, [2014-10-23T21:03:04.803898 #858] DEBUG -- : response-header: cache-control => no-cache
+D, [2014-10-23T21:03:04.803947 #858] DEBUG -- : response-header: pragma => no-cache
+D, [2014-10-23T21:03:04.804105 #858] DEBUG -- : Read 0 bytes (0 total)
+I, [2014-10-23T21:03:04.804671 #858]  INFO -- : follow redirect to: http://www.movistar.cl/PortalMovistarWeb/appmanager/PortalMovistar/portal?_nfpb=true&_pageLabel=P1000190501270682270315
+I, [2014-10-23T21:03:04.805658 #858]  INFO -- : Net::HTTP::Get: /PortalMovistarWeb/appmanager/PortalMovistar/portal?_nfpb=true&_pageLabel=P1000190501270682270315
+D, [2014-10-23T21:03:04.805718 #858] DEBUG -- : request-header: accept-encoding => gzip,deflate,identity
+D, [2014-10-23T21:03:04.805767 #858] DEBUG -- : request-header: accept => */*
+D, [2014-10-23T21:03:04.805814 #858] DEBUG -- : request-header: user-agent => Mechanize/2.7.2 Ruby/2.1.1p76 (http://github.com/sparklemotion/mechanize/)
+D, [2014-10-23T21:03:04.805875 #858] DEBUG -- : request-header: accept-charset => ISO-8859-1,utf-8;q=0.7,*;q=0.7
+D, [2014-10-23T21:03:04.806035 #858] DEBUG -- : request-header: accept-language => en-us,en;q=0.5
+D, [2014-10-23T21:03:04.806086 #858] DEBUG -- : request-header: host => www.movistar.cl
+I, [2014-10-23T21:03:04.983903 #858]  INFO -- : status: Net::HTTPOK 1.1 200 OK
+D, [2014-10-23T21:03:04.984059 #858] DEBUG -- : response-header: cache-control => no-cache="Set-Cookie"
+D, [2014-10-23T21:03:04.984111 #858] DEBUG -- : response-header: date => Thu, 23 Oct 2014 21:03:05 GMT
+D, [2014-10-23T21:03:04.984174 #858] DEBUG -- : response-header: transfer-encoding => chunked
+D, [2014-10-23T21:03:04.984224 #858] DEBUG -- : response-header: content-type => text/html; charset=UTF-8
+D, [2014-10-23T21:03:04.984291 #858] DEBUG -- : response-header: set-cookie => JSESSIONID=Q0HYJJtJ599QhNP9cs0H67LK8H581LHnnCXWGQyHnDnz1GjCt11g!100852866; path=/, TLTSID=179987470503071414097859; path=/; domain=.movistar.cl, NSC_mcwt_ovfwp_xxx_npwjtubs_dm=ffffffff09bd09cd45525d5f4f58455e445a4a42151d;path=/;httponly
+D, [2014-10-23T21:03:04.984342 #858] DEBUG -- : response-header: x-powered-by => Servlet/2.5 JSP/2.1
+D, [2014-10-23T21:03:04.984696 #858] DEBUG -- : Read 2714 bytes (2714 total)
+D, [2014-10-23T21:03:05.038716 #858] DEBUG -- : Read 1358 bytes (4072 total)
+D, [2014-10-23T21:03:05.038946 #858] DEBUG -- : Read 2714 bytes (6786 total)
+D, [2014-10-23T21:03:05.093045 #858] DEBUG -- : Read 1358 bytes (8144 total)
+D, [2014-10-23T21:03:05.093177 #858] DEBUG -- : Read 211 bytes (8355 total)
+D, [2014-10-23T21:03:05.417122 #858] DEBUG -- : Read 2434 bytes (10789 total)
+D, [2014-10-23T21:03:05.417606 #858] DEBUG -- : Read 1354 bytes (12143 total)
+D, [2014-10-23T21:03:05.471917 #858] DEBUG -- : Read 1360 bytes (13503 total)
+D, [2014-10-23T21:03:05.472067 #858] DEBUG -- : Read 1358 bytes (14861 total)
+D, [2014-10-23T21:03:05.472152 #858] DEBUG -- : Read 1354 bytes (16215 total)
+D, [2014-10-23T21:03:05.526475 #858] DEBUG -- : Read 1360 bytes (17575 total)
+D, [2014-10-23T21:03:05.526679 #858] DEBUG -- : Read 1358 bytes (18933 total)
+D, [2014-10-23T21:03:05.526777 #858] DEBUG -- : Read 2714 bytes (21647 total)
+D, [2014-10-23T21:03:05.581106 #858] DEBUG -- : Read 1358 bytes (23005 total)
+D, [2014-10-23T21:03:05.581281 #858] DEBUG -- : Read 4072 bytes (27077 total)
+D, [2014-10-23T21:03:05.581351 #858] DEBUG -- : Read 1354 bytes (28431 total)
+D, [2014-10-23T21:03:05.635328 #858] DEBUG -- : Read 1360 bytes (29791 total)
+D, [2014-10-23T21:03:05.635502 #858] DEBUG -- : Read 1358 bytes (31149 total)
+D, [2014-10-23T21:03:05.635825 #858] DEBUG -- : Read 4072 bytes (35221 total)
+D, [2014-10-23T21:03:05.690444 #858] DEBUG -- : Read 4072 bytes (39293 total)
+D, [2014-10-23T21:03:05.690572 #858] DEBUG -- : Read 1354 bytes (40647 total)
+D, [2014-10-23T21:03:05.690663 #858] DEBUG -- : Read 2718 bytes (43365 total)
+D, [2014-10-23T21:03:05.744898 #858] DEBUG -- : Read 453 bytes (43818 total)
+D, [2014-10-23T21:03:05.745098 #858] DEBUG -- : Read 4072 bytes (47890 total)
+D, [2014-10-23T21:03:05.745262 #858] DEBUG -- : Read 3613 bytes (51503 total)
+D, [2014-10-23T21:03:05.799188 #858] DEBUG -- : Read 459 bytes (51962 total)
+D, [2014-10-23T21:03:05.799366 #858] DEBUG -- : Read 2253 bytes (54215 total)
+D, [2014-10-23T21:03:05.799475 #858] DEBUG -- : Read 1819 bytes (56034 total)
+D, [2014-10-23T21:03:05.799587 #858] DEBUG -- : Read 3613 bytes (59647 total)
+D, [2014-10-23T21:03:05.853807 #858] DEBUG -- : Read 459 bytes (60106 total)
+D, [2014-10-23T21:03:05.854086 #858] DEBUG -- : Read 3613 bytes (63719 total)
+D, [2014-10-23T21:03:05.854176 #858] DEBUG -- : Read 459 bytes (64178 total)
+D, [2014-10-23T21:03:05.854287 #858] DEBUG -- : Read 3613 bytes (67791 total)
+D, [2014-10-23T21:03:05.907922 #858] DEBUG -- : Read 459 bytes (68250 total)
+D, [2014-10-23T21:03:05.908065 #858] DEBUG -- : Read 893 bytes (69143 total)
+D, [2014-10-23T21:03:05.908438 #858] DEBUG -- : Read 3179 bytes (72322 total)
+D, [2014-10-23T21:03:05.908546 #858] DEBUG -- : Read 3613 bytes (75935 total)
+D, [2014-10-23T21:03:05.910776 #858] DEBUG -- : Read 459 bytes (76394 total)
+D, [2014-10-23T21:03:05.910864 #858] DEBUG -- : Read 893 bytes (77287 total)
+D, [2014-10-23T21:03:05.962765 #858] DEBUG -- : Read 3179 bytes (80466 total)
+D, [2014-10-23T21:03:06.348142 #858] DEBUG -- : Read 4072 bytes (84538 total)
+D, [2014-10-23T21:03:06.402618 #858] DEBUG -- : Read 1354 bytes (85892 total)
+D, [2014-10-23T21:03:06.402867 #858] DEBUG -- : Read 1647 bytes (87539 total)
+D, [2014-10-23T21:03:06.402974 #858] DEBUG -- : Read 2425 bytes (89964 total)
+D, [2014-10-23T21:03:06.456805 #858] DEBUG -- : Read 1647 bytes (91611 total)
+D, [2014-10-23T21:03:06.456953 #858] DEBUG -- : Read 1065 bytes (92676 total)
+D, [2014-10-23T21:03:06.457261 #858] DEBUG -- : Read 3007 bytes (95683 total)
+D, [2014-10-23T21:03:06.457355 #858] DEBUG -- : Read 2425 bytes (98108 total)
+D, [2014-10-23T21:03:06.511429 #858] DEBUG -- : Read 1647 bytes (99755 total)
+D, [2014-10-23T21:03:06.512298 #858] DEBUG -- : Read 1065 bytes (100820 total)
+D, [2014-10-23T21:03:06.512408 #858] DEBUG -- : Read 3007 bytes (103827 total)
+D, [2014-10-23T21:03:06.512487 #858] DEBUG -- : Read 519 bytes (104346 total)
+D, [2014-10-23T21:03:06.523946 #858] DEBUG -- : saved cookie: JSESSIONID=Q0HYJJtJ599QhNP9cs0H67LK8H581LHnnCXWGQyHnDnz1GjCt11g!100852866
+D, [2014-10-23T21:03:06.524245 #858] DEBUG -- : saved cookie: TLTSID=179987470503071414097859
+D, [2014-10-23T21:03:06.524421 #858] DEBUG -- : saved cookie: NSC_mcwt_ovfwp_xxx_npwjtubs_dm=ffffffff09bd09cd45525d5f4f58455e445a4a42151d
+I, [2014-10-23T21:04:01.810631 #867]  INFO -- : Net::HTTP::Get: /
+D, [2014-10-23T21:04:01.810773 #867] DEBUG -- : request-header: accept-encoding => gzip,deflate,identity
+D, [2014-10-23T21:04:01.810847 #867] DEBUG -- : request-header: accept => */*
+D, [2014-10-23T21:04:01.810960 #867] DEBUG -- : request-header: user-agent => Mechanize/2.7.2 Ruby/2.1.1p76 (http://github.com/sparklemotion/mechanize/)
+D, [2014-10-23T21:04:01.811016 #867] DEBUG -- : request-header: accept-charset => ISO-8859-1,utf-8;q=0.7,*;q=0.7
+D, [2014-10-23T21:04:01.811064 #867] DEBUG -- : request-header: accept-language => en-us,en;q=0.5
+D, [2014-10-23T21:04:01.811111 #867] DEBUG -- : request-header: host => movistar.cl
+I, [2014-10-23T21:04:01.918938 #867]  INFO -- : status: Net::HTTPFound 1.1 302 Moved Temporarily
+D, [2014-10-23T21:04:01.919065 #867] DEBUG -- : response-header: location => http://www.movistar.cl/PortalMovistarWeb/appmanager/PortalMovistar/portal?_nfpb=true&_pageLabel=P1000190501270682270315
+D, [2014-10-23T21:04:01.919116 #867] DEBUG -- : response-header: connection => close
+D, [2014-10-23T21:04:01.919164 #867] DEBUG -- : response-header: cache-control => no-cache
+D, [2014-10-23T21:04:01.919241 #867] DEBUG -- : response-header: pragma => no-cache
+D, [2014-10-23T21:04:01.919372 #867] DEBUG -- : Read 0 bytes (0 total)
+I, [2014-10-23T21:04:01.919895 #867]  INFO -- : follow redirect to: http://www.movistar.cl/PortalMovistarWeb/appmanager/PortalMovistar/portal?_nfpb=true&_pageLabel=P1000190501270682270315
+I, [2014-10-23T21:04:01.920869 #867]  INFO -- : Net::HTTP::Get: /PortalMovistarWeb/appmanager/PortalMovistar/portal?_nfpb=true&_pageLabel=P1000190501270682270315
+D, [2014-10-23T21:04:01.920930 #867] DEBUG -- : request-header: accept-encoding => gzip,deflate,identity
+D, [2014-10-23T21:04:01.920979 #867] DEBUG -- : request-header: accept => */*
+D, [2014-10-23T21:04:01.921026 #867] DEBUG -- : request-header: user-agent => Mechanize/2.7.2 Ruby/2.1.1p76 (http://github.com/sparklemotion/mechanize/)
+D, [2014-10-23T21:04:01.921073 #867] DEBUG -- : request-header: accept-charset => ISO-8859-1,utf-8;q=0.7,*;q=0.7
+D, [2014-10-23T21:04:01.921119 #867] DEBUG -- : request-header: accept-language => en-us,en;q=0.5
+D, [2014-10-23T21:04:01.921168 #867] DEBUG -- : request-header: host => www.movistar.cl
+I, [2014-10-23T21:04:02.178693 #867]  INFO -- : status: Net::HTTPOK 1.1 200 OK
+D, [2014-10-23T21:04:02.178835 #867] DEBUG -- : response-header: cache-control => no-cache="Set-Cookie"
+D, [2014-10-23T21:04:02.178887 #867] DEBUG -- : response-header: date => Thu, 23 Oct 2014 21:04:02 GMT
+D, [2014-10-23T21:04:02.178935 #867] DEBUG -- : response-header: transfer-encoding => chunked
+D, [2014-10-23T21:04:02.178983 #867] DEBUG -- : response-header: content-type => text/html; charset=UTF-8
+D, [2014-10-23T21:04:02.179031 #867] DEBUG -- : response-header: set-cookie => JSESSIONID=J25RJJtCBLTswBDX1VyHkQCDLWgts1qlxb2JpZCwDvCQMLYTGT7F!-1968047764; path=/, TLTSID=17998747044421414097916; path=/; domain=.movistar.cl, NSC_mcwt_ovfwp_xxx_npwjtubs_dm=ffffffff09bd09cd45525d5f4f58455e445a4a42151b;path=/;httponly
+D, [2014-10-23T21:04:02.179078 #867] DEBUG -- : response-header: x-powered-by => Servlet/2.5 JSP/2.1
+D, [2014-10-23T21:04:02.179278 #867] DEBUG -- : Read 2714 bytes (2714 total)
+D, [2014-10-23T21:04:02.232934 #867] DEBUG -- : Read 1358 bytes (4072 total)
+D, [2014-10-23T21:04:02.233209 #867] DEBUG -- : Read 4072 bytes (8144 total)
+D, [2014-10-23T21:04:02.236699 #867] DEBUG -- : Read 213 bytes (8357 total)
+D, [2014-10-23T21:04:02.287412 #867] DEBUG -- : Read 2436 bytes (10793 total)
+D, [2014-10-23T21:04:02.287605 #867] DEBUG -- : Read 2990 bytes (13783 total)
+D, [2014-10-23T21:04:02.341497 #867] DEBUG -- : Read 1082 bytes (14865 total)
+D, [2014-10-23T21:04:02.341897 #867] DEBUG -- : Read 1630 bytes (16495 total)
+D, [2014-10-23T21:04:02.342039 #867] DEBUG -- : Read 2442 bytes (18937 total)
+D, [2014-10-23T21:04:02.342134 #867] DEBUG -- : Read 2990 bytes (21927 total)
+D, [2014-10-23T21:04:02.395939 #867] DEBUG -- : Read 1082 bytes (23009 total)
+D, [2014-10-23T21:04:02.396216 #867] DEBUG -- : Read 4072 bytes (27081 total)
+D, [2014-10-23T21:04:02.396299 #867] DEBUG -- : Read 2990 bytes (30071 total)
+D, [2014-10-23T21:04:02.450064 #867] DEBUG -- : Read 1082 bytes (31153 total)
+D, [2014-10-23T21:04:02.450246 #867] DEBUG -- : Read 1630 bytes (32783 total)
+D, [2014-10-23T21:04:02.450343 #867] DEBUG -- : Read 2442 bytes (35225 total)
+D, [2014-10-23T21:04:02.541285 #867] DEBUG -- : Read 4072 bytes (39297 total)
+D, [2014-10-23T21:04:02.544786 #867] DEBUG -- : Read 4072 bytes (43369 total)
+D, [2014-10-23T21:04:02.544891 #867] DEBUG -- : Read 535 bytes (43904 total)
+D, [2014-10-23T21:04:02.595464 #867] DEBUG -- : Read 4072 bytes (47976 total)
+D, [2014-10-23T21:04:02.599850 #867] DEBUG -- : Read 4072 bytes (52048 total)
+D, [2014-10-23T21:04:02.649862 #867] DEBUG -- : Read 4072 bytes (56120 total)
+D, [2014-10-23T21:04:02.649966 #867] DEBUG -- : Read 1354 bytes (57474 total)
+D, [2014-10-23T21:04:02.653942 #867] DEBUG -- : Read 2718 bytes (60192 total)
+D, [2014-10-23T21:04:02.654168 #867] DEBUG -- : Read 2714 bytes (62906 total)
+D, [2014-10-23T21:04:02.704038 #867] DEBUG -- : Read 1358 bytes (64264 total)
+D, [2014-10-23T21:04:02.704238 #867] DEBUG -- : Read 1354 bytes (65618 total)
+D, [2014-10-23T21:04:02.704447 #867] DEBUG -- : Read 2718 bytes (68336 total)
+D, [2014-10-23T21:04:02.708767 #867] DEBUG -- : Read 4072 bytes (72408 total)
+D, [2014-10-23T21:04:02.708844 #867] DEBUG -- : Read 1354 bytes (73762 total)
+D, [2014-10-23T21:04:02.758760 #867] DEBUG -- : Read 2718 bytes (76480 total)
+D, [2014-10-23T21:04:02.762885 #867] DEBUG -- : Read 4072 bytes (80552 total)
+D, [2014-10-23T21:04:03.393081 #867] DEBUG -- : Read 4072 bytes (84624 total)
+D, [2014-10-23T21:04:03.447059 #867] DEBUG -- : Read 1354 bytes (85978 total)
+D, [2014-10-23T21:04:03.447587 #867] DEBUG -- : Read 1657 bytes (87635 total)
+D, [2014-10-23T21:04:03.447711 #867] DEBUG -- : Read 3775 bytes (91410 total)
+D, [2014-10-23T21:04:03.501659 #867] DEBUG -- : Read 297 bytes (91707 total)
+D, [2014-10-23T21:04:03.502526 #867] DEBUG -- : Read 2415 bytes (94122 total)
+D, [2014-10-23T21:04:03.502630 #867] DEBUG -- : Read 1657 bytes (95779 total)
+D, [2014-10-23T21:04:03.502733 #867] DEBUG -- : Read 4072 bytes (99851 total)
+D, [2014-10-23T21:04:03.503440 #867] DEBUG -- : Read 1055 bytes (100906 total)
+D, [2014-10-23T21:04:03.556243 #867] DEBUG -- : Read 3017 bytes (103923 total)
+D, [2014-10-23T21:04:03.556391 #867] DEBUG -- : Read 527 bytes (104450 total)
+D, [2014-10-23T21:04:03.571211 #867] DEBUG -- : saved cookie: JSESSIONID=J25RJJtCBLTswBDX1VyHkQCDLWgts1qlxb2JpZCwDvCQMLYTGT7F!-1968047764
+D, [2014-10-23T21:04:03.571515 #867] DEBUG -- : saved cookie: TLTSID=17998747044421414097916
+D, [2014-10-23T21:04:03.571707 #867] DEBUG -- : saved cookie: NSC_mcwt_ovfwp_xxx_npwjtubs_dm=ffffffff09bd09cd45525d5f4f58455e445a4a42151b
+I, [2014-10-23T21:06:22.304921 #884]  INFO -- : Net::HTTP::Get: /
+D, [2014-10-23T21:06:22.305068 #884] DEBUG -- : request-header: accept-encoding => gzip,deflate,identity
+D, [2014-10-23T21:06:22.305120 #884] DEBUG -- : request-header: accept => */*
+D, [2014-10-23T21:06:22.305170 #884] DEBUG -- : request-header: user-agent => Mechanize/2.7.2 Ruby/2.1.1p76 (http://github.com/sparklemotion/mechanize/)
+D, [2014-10-23T21:06:22.305218 #884] DEBUG -- : request-header: accept-charset => ISO-8859-1,utf-8;q=0.7,*;q=0.7
+D, [2014-10-23T21:06:22.305659 #884] DEBUG -- : request-header: accept-language => en-us,en;q=0.5
+D, [2014-10-23T21:06:22.305731 #884] DEBUG -- : request-header: host => movistar.cl
+I, [2014-10-23T21:06:22.421556 #884]  INFO -- : status: Net::HTTPFound 1.1 302 Moved Temporarily
+D, [2014-10-23T21:06:22.421688 #884] DEBUG -- : response-header: location => http://www.movistar.cl/PortalMovistarWeb/appmanager/PortalMovistar/portal?_nfpb=true&_pageLabel=P1000190501270682270315
+D, [2014-10-23T21:06:22.421740 #884] DEBUG -- : response-header: connection => close
+D, [2014-10-23T21:06:22.421787 #884] DEBUG -- : response-header: cache-control => no-cache
+D, [2014-10-23T21:06:22.421847 #884] DEBUG -- : response-header: pragma => no-cache
+D, [2014-10-23T21:06:22.422072 #884] DEBUG -- : Read 0 bytes (0 total)
+I, [2014-10-23T21:06:22.422684 #884]  INFO -- : follow redirect to: http://www.movistar.cl/PortalMovistarWeb/appmanager/PortalMovistar/portal?_nfpb=true&_pageLabel=P1000190501270682270315
+I, [2014-10-23T21:06:22.423661 #884]  INFO -- : Net::HTTP::Get: /PortalMovistarWeb/appmanager/PortalMovistar/portal?_nfpb=true&_pageLabel=P1000190501270682270315
+D, [2014-10-23T21:06:22.423720 #884] DEBUG -- : request-header: accept-encoding => gzip,deflate,identity
+D, [2014-10-23T21:06:22.423769 #884] DEBUG -- : request-header: accept => */*
+D, [2014-10-23T21:06:22.423815 #884] DEBUG -- : request-header: user-agent => Mechanize/2.7.2 Ruby/2.1.1p76 (http://github.com/sparklemotion/mechanize/)
+D, [2014-10-23T21:06:22.423861 #884] DEBUG -- : request-header: accept-charset => ISO-8859-1,utf-8;q=0.7,*;q=0.7
+D, [2014-10-23T21:06:22.423906 #884] DEBUG -- : request-header: accept-language => en-us,en;q=0.5
+D, [2014-10-23T21:06:22.423952 #884] DEBUG -- : request-header: host => www.movistar.cl
+I, [2014-10-23T21:06:22.676252 #884]  INFO -- : status: Net::HTTPOK 1.1 200 OK
+D, [2014-10-23T21:06:22.676389 #884] DEBUG -- : response-header: cache-control => no-cache="Set-Cookie"
+D, [2014-10-23T21:06:22.676458 #884] DEBUG -- : response-header: date => Thu, 23 Oct 2014 21:06:23 GMT
+D, [2014-10-23T21:06:22.676516 #884] DEBUG -- : response-header: transfer-encoding => chunked
+D, [2014-10-23T21:06:22.676564 #884] DEBUG -- : response-header: content-type => text/html; charset=UTF-8
+D, [2014-10-23T21:06:22.676619 #884] DEBUG -- : response-header: set-cookie => JSESSIONID=nh0tJJtP1B4CRw44PysxBtXfKTNhyC0LqcDf6Jt78DnLJ51dpGdR!-1968047764; path=/, TLTSID=179987470141141414098056; path=/; domain=.movistar.cl, NSC_mcwt_ovfwp_xxx_npwjtubs_dm=ffffffff09bd09cd45525d5f4f58455e445a4a42151b;path=/;httponly
+D, [2014-10-23T21:06:22.676668 #884] DEBUG -- : response-header: x-powered-by => Servlet/2.5 JSP/2.1
+D, [2014-10-23T21:06:22.677036 #884] DEBUG -- : Read 4072 bytes (4072 total)
+D, [2014-10-23T21:06:22.730806 #884] DEBUG -- : Read 4072 bytes (8144 total)
+D, [2014-10-23T21:06:22.734401 #884] DEBUG -- : Read 213 bytes (8357 total)
+D, [2014-10-23T21:06:23.002264 #884] DEBUG -- : Read 1354 bytes (9711 total)
+D, [2014-10-23T21:06:23.002418 #884] DEBUG -- : Read 1082 bytes (10793 total)
+D, [2014-10-23T21:06:23.003648 #884] DEBUG -- : Read 1354 bytes (12147 total)
+D, [2014-10-23T21:06:23.003945 #884] DEBUG -- : Read 2718 bytes (14865 total)
+D, [2014-10-23T21:06:23.056229 #884] DEBUG -- : Read 1354 bytes (16219 total)
+D, [2014-10-23T21:06:23.056424 #884] DEBUG -- : Read 1360 bytes (17579 total)
+D, [2014-10-23T21:06:23.058231 #884] DEBUG -- : Read 1358 bytes (18937 total)
+D, [2014-10-23T21:06:23.058335 #884] DEBUG -- : Read 2714 bytes (21651 total)
+D, [2014-10-23T21:06:23.112683 #884] DEBUG -- : Read 1358 bytes (23009 total)
+D, [2014-10-23T21:06:23.112913 #884] DEBUG -- : Read 4072 bytes (27081 total)
+D, [2014-10-23T21:06:23.113021 #884] DEBUG -- : Read 2714 bytes (29795 total)
+D, [2014-10-23T21:06:23.164702 #884] DEBUG -- : Read 1358 bytes (31153 total)
+D, [2014-10-23T21:06:23.164900 #884] DEBUG -- : Read 2714 bytes (33867 total)
+D, [2014-10-23T21:06:23.166070 #884] DEBUG -- : Read 1358 bytes (35225 total)
+D, [2014-10-23T21:06:23.310373 #884] DEBUG -- : Read 4072 bytes (39297 total)
+D, [2014-10-23T21:06:23.310648 #884] DEBUG -- : Read 4072 bytes (43369 total)
+D, [2014-10-23T21:06:23.310747 #884] DEBUG -- : Read 535 bytes (43904 total)
+D, [2014-10-23T21:06:23.364033 #884] DEBUG -- : Read 4072 bytes (47976 total)
+D, [2014-10-23T21:06:23.364462 #884] DEBUG -- : Read 4072 bytes (52048 total)
+D, [2014-10-23T21:06:23.417955 #884] DEBUG -- : Read 1354 bytes (53402 total)
+D, [2014-10-23T21:06:23.418195 #884] DEBUG -- : Read 1360 bytes (54762 total)
+D, [2014-10-23T21:06:23.418657 #884] DEBUG -- : Read 1358 bytes (56120 total)
+D, [2014-10-23T21:06:23.418785 #884] DEBUG -- : Read 4072 bytes (60192 total)
+D, [2014-10-23T21:06:23.418886 #884] DEBUG -- : Read 1354 bytes (61546 total)
+D, [2014-10-23T21:06:23.472211 #884] DEBUG -- : Read 1360 bytes (62906 total)
+D, [2014-10-23T21:06:23.472562 #884] DEBUG -- : Read 1358 bytes (64264 total)
+D, [2014-10-23T21:06:23.472713 #884] DEBUG -- : Read 4072 bytes (68336 total)
+D, [2014-10-23T21:06:23.472821 #884] DEBUG -- : Read 1354 bytes (69690 total)
+D, [2014-10-23T21:06:23.473005 #884] DEBUG -- : Read 2718 bytes (72408 total)
+D, [2014-10-23T21:06:23.527151 #884] DEBUG -- : Read 4072 bytes (76480 total)
+D, [2014-10-23T21:06:23.527388 #884] DEBUG -- : Read 4072 bytes (80552 total)
+D, [2014-10-23T21:06:23.886749 #884] DEBUG -- : Read 4072 bytes (84624 total)
+D, [2014-10-23T21:06:23.940537 #884] DEBUG -- : Read 1354 bytes (85978 total)
+D, [2014-10-23T21:06:23.940831 #884] DEBUG -- : Read 1657 bytes (87635 total)
+D, [2014-10-23T21:06:23.940953 #884] DEBUG -- : Read 3775 bytes (91410 total)
+D, [2014-10-23T21:06:23.994629 #884] DEBUG -- : Read 297 bytes (91707 total)
+D, [2014-10-23T21:06:23.994778 #884] DEBUG -- : Read 1055 bytes (92762 total)
+D, [2014-10-23T21:06:23.995092 #884] DEBUG -- : Read 3017 bytes (95779 total)
+D, [2014-10-23T21:06:23.995191 #884] DEBUG -- : Read 2415 bytes (98194 total)
+D, [2014-10-23T21:06:23.998421 #884] DEBUG -- : Read 1657 bytes (99851 total)
+D, [2014-10-23T21:06:23.999043 #884] DEBUG -- : Read 2415 bytes (102266 total)
+D, [2014-10-23T21:06:24.049228 #884] DEBUG -- : Read 1657 bytes (103923 total)
+D, [2014-10-23T21:06:24.049403 #884] DEBUG -- : Read 527 bytes (104450 total)
+D, [2014-10-23T21:06:24.068634 #884] DEBUG -- : saved cookie: JSESSIONID=nh0tJJtP1B4CRw44PysxBtXfKTNhyC0LqcDf6Jt78DnLJ51dpGdR!-1968047764
+D, [2014-10-23T21:06:24.070194 #884] DEBUG -- : saved cookie: TLTSID=179987470141141414098056
+D, [2014-10-23T21:06:24.070396 #884] DEBUG -- : saved cookie: NSC_mcwt_ovfwp_xxx_npwjtubs_dm=ffffffff09bd09cd45525d5f4f58455e445a4a42151b
+I, [2014-10-23T21:20:55.585188 #920]  INFO -- : Net::HTTP::Get: /
+D, [2014-10-23T21:20:55.585329 #920] DEBUG -- : request-header: accept-encoding => gzip,deflate,identity
+D, [2014-10-23T21:20:55.585395 #920] DEBUG -- : request-header: accept => */*
+D, [2014-10-23T21:20:55.585454 #920] DEBUG -- : request-header: user-agent => Mechanize/2.7.2 Ruby/2.1.1p76 (http://github.com/sparklemotion/mechanize/)
+D, [2014-10-23T21:20:55.585501 #920] DEBUG -- : request-header: accept-charset => ISO-8859-1,utf-8;q=0.7,*;q=0.7
+D, [2014-10-23T21:20:55.585549 #920] DEBUG -- : request-header: accept-language => en-us,en;q=0.5
+D, [2014-10-23T21:20:55.585596 #920] DEBUG -- : request-header: host => movistar.cl
+I, [2014-10-23T21:20:55.711783 #920]  INFO -- : status: Net::HTTPFound 1.1 302 Moved Temporarily
+D, [2014-10-23T21:20:55.711925 #920] DEBUG -- : response-header: location => http://www.movistar.cl/PortalMovistarWeb/appmanager/PortalMovistar/portal?_nfpb=true&_pageLabel=P1000190501270682270315
+D, [2014-10-23T21:20:55.711975 #920] DEBUG -- : response-header: connection => close
+D, [2014-10-23T21:20:55.712034 #920] DEBUG -- : response-header: cache-control => no-cache
+D, [2014-10-23T21:20:55.712082 #920] DEBUG -- : response-header: pragma => no-cache
+D, [2014-10-23T21:20:55.712208 #920] DEBUG -- : Read 0 bytes (0 total)
+I, [2014-10-23T21:20:55.712717 #920]  INFO -- : follow redirect to: http://www.movistar.cl/PortalMovistarWeb/appmanager/PortalMovistar/portal?_nfpb=true&_pageLabel=P1000190501270682270315
+I, [2014-10-23T21:20:55.713666 #920]  INFO -- : Net::HTTP::Get: /PortalMovistarWeb/appmanager/PortalMovistar/portal?_nfpb=true&_pageLabel=P1000190501270682270315
+D, [2014-10-23T21:20:55.713748 #920] DEBUG -- : request-header: accept-encoding => gzip,deflate,identity
+D, [2014-10-23T21:20:55.713799 #920] DEBUG -- : request-header: accept => */*
+D, [2014-10-23T21:20:55.713846 #920] DEBUG -- : request-header: user-agent => Mechanize/2.7.2 Ruby/2.1.1p76 (http://github.com/sparklemotion/mechanize/)
+D, [2014-10-23T21:20:55.713893 #920] DEBUG -- : request-header: accept-charset => ISO-8859-1,utf-8;q=0.7,*;q=0.7
+D, [2014-10-23T21:20:55.714007 #920] DEBUG -- : request-header: accept-language => en-us,en;q=0.5
+D, [2014-10-23T21:20:55.714055 #920] DEBUG -- : request-header: host => www.movistar.cl
+I, [2014-10-23T21:20:55.994375 #920]  INFO -- : status: Net::HTTPOK 1.1 200 OK
+D, [2014-10-23T21:20:55.994515 #920] DEBUG -- : response-header: cache-control => no-cache="Set-Cookie"
+D, [2014-10-23T21:20:55.994568 #920] DEBUG -- : response-header: date => Thu, 23 Oct 2014 21:21:23 GMT
+D, [2014-10-23T21:20:55.994625 #920] DEBUG -- : response-header: transfer-encoding => chunked
+D, [2014-10-23T21:20:55.994675 #920] DEBUG -- : response-header: content-type => text/html; charset=UTF-8
+D, [2014-10-23T21:20:55.994722 #920] DEBUG -- : response-header: set-cookie => JSESSIONID=8KTvJJxTpllzBGxHT2QzyJpRKyp00FqnHJpZfTnG9C4WymdL1119!-1887653363; path=/, TLTSID=17998747075821414098930; path=/; domain=.movistar.cl, NSC_mcwt_ovfwp_xxx_npwjtubs_dm=ffffffff09b12d1b45525d5f4f58455e445a4a42151d;path=/;httponly
+D, [2014-10-23T21:20:55.994789 #920] DEBUG -- : response-header: x-powered-by => Servlet/2.5 JSP/2.1
+D, [2014-10-23T21:20:55.994982 #920] DEBUG -- : Read 1354 bytes (1354 total)
+D, [2014-10-23T21:20:55.995124 #920] DEBUG -- : Read 2718 bytes (4072 total)
+D, [2014-10-23T21:20:55.995238 #920] DEBUG -- : Read 4072 bytes (8144 total)
+D, [2014-10-23T21:20:55.997189 #920] DEBUG -- : Read 213 bytes (8357 total)
+D, [2014-10-23T21:20:56.290427 #920] DEBUG -- : Read 2436 bytes (10793 total)
+D, [2014-10-23T21:20:56.291583 #920] DEBUG -- : Read 4072 bytes (14865 total)
+D, [2014-10-23T21:20:56.291803 #920] DEBUG -- : Read 4072 bytes (18937 total)
+D, [2014-10-23T21:20:56.346161 #920] DEBUG -- : Read 1354 bytes (20291 total)
+D, [2014-10-23T21:20:56.346416 #920] DEBUG -- : Read 2718 bytes (23009 total)
+D, [2014-10-23T21:20:56.346496 #920] DEBUG -- : Read 1354 bytes (24363 total)
+D, [2014-10-23T21:20:56.347179 #920] DEBUG -- : Read 2718 bytes (27081 total)
+D, [2014-10-23T21:20:56.347358 #920] DEBUG -- : Read 4072 bytes (31153 total)
+D, [2014-10-23T21:20:56.402154 #920] DEBUG -- : Read 4072 bytes (35225 total)
+D, [2014-10-23T21:20:56.523159 #920] DEBUG -- : Read 1354 bytes (36579 total)
+D, [2014-10-23T21:20:56.523342 #920] DEBUG -- : Read 2718 bytes (39297 total)
+D, [2014-10-23T21:20:56.523446 #920] DEBUG -- : Read 4072 bytes (43369 total)
+D, [2014-10-23T21:20:56.524537 #920] DEBUG -- : Read 535 bytes (43904 total)
+D, [2014-10-23T21:20:56.524634 #920] DEBUG -- : Read 4072 bytes (47976 total)
+D, [2014-10-23T21:20:56.578877 #920] DEBUG -- : Read 1354 bytes (49330 total)
+D, [2014-10-23T21:20:56.579111 #920] DEBUG -- : Read 1360 bytes (50690 total)
+D, [2014-10-23T21:20:56.647016 #920] DEBUG -- : Read 1358 bytes (52048 total)
+D, [2014-10-23T21:20:56.647187 #920] DEBUG -- : Read 4072 bytes (56120 total)
+D, [2014-10-23T21:20:56.647293 #920] DEBUG -- : Read 4072 bytes (60192 total)
+D, [2014-10-23T21:20:56.647394 #920] DEBUG -- : Read 4072 bytes (64264 total)
+D, [2014-10-23T21:20:56.657296 #920] DEBUG -- : Read 4072 bytes (68336 total)
+D, [2014-10-23T21:20:56.657475 #920] DEBUG -- : Read 4072 bytes (72408 total)
+D, [2014-10-23T21:20:56.657581 #920] DEBUG -- : Read 4072 bytes (76480 total)
+D, [2014-10-23T21:20:56.713309 #920] DEBUG -- : Read 4072 bytes (80552 total)
+D, [2014-10-23T21:20:57.122283 #920] DEBUG -- : Read 4072 bytes (84624 total)
+D, [2014-10-23T21:20:57.122469 #920] DEBUG -- : Read 2714 bytes (87338 total)
+D, [2014-10-23T21:20:57.132687 #920] DEBUG -- : Read 297 bytes (87635 total)
+D, [2014-10-23T21:20:57.178310 #920] DEBUG -- : Read 4072 bytes (91707 total)
+D, [2014-10-23T21:20:57.178515 #920] DEBUG -- : Read 4072 bytes (95779 total)
+D, [2014-10-23T21:20:57.181230 #920] DEBUG -- : Read 1354 bytes (97133 total)
+D, [2014-10-23T21:20:57.234072 #920] DEBUG -- : Read 2718 bytes (99851 total)
+D, [2014-10-23T21:20:57.234752 #920] DEBUG -- : Read 2714 bytes (102565 total)
+D, [2014-10-23T21:20:57.234856 #920] DEBUG -- : Read 1358 bytes (103923 total)
+D, [2014-10-23T21:20:57.234929 #920] DEBUG -- : Read 527 bytes (104450 total)
+D, [2014-10-23T21:20:57.261026 #920] DEBUG -- : saved cookie: JSESSIONID=8KTvJJxTpllzBGxHT2QzyJpRKyp00FqnHJpZfTnG9C4WymdL1119!-1887653363
+D, [2014-10-23T21:20:57.261355 #920] DEBUG -- : saved cookie: TLTSID=17998747075821414098930
+D, [2014-10-23T21:20:57.261529 #920] DEBUG -- : saved cookie: NSC_mcwt_ovfwp_xxx_npwjtubs_dm=ffffffff09b12d1b45525d5f4f58455e445a4a42151d
+I, [2014-10-23T21:22:20.987684 #930]  INFO -- : Net::HTTP::Get: /
+D, [2014-10-23T21:22:20.987822 #930] DEBUG -- : request-header: accept-encoding => gzip,deflate,identity
+D, [2014-10-23T21:22:20.987874 #930] DEBUG -- : request-header: accept => */*
+D, [2014-10-23T21:22:20.987921 #930] DEBUG -- : request-header: user-agent => Mechanize/2.7.2 Ruby/2.1.1p76 (http://github.com/sparklemotion/mechanize/)
+D, [2014-10-23T21:22:20.987968 #930] DEBUG -- : request-header: accept-charset => ISO-8859-1,utf-8;q=0.7,*;q=0.7
+D, [2014-10-23T21:22:20.988013 #930] DEBUG -- : request-header: accept-language => en-us,en;q=0.5
+D, [2014-10-23T21:22:20.988070 #930] DEBUG -- : request-header: host => movistar.cl
+I, [2014-10-23T21:22:21.094086 #930]  INFO -- : status: Net::HTTPFound 1.1 302 Moved Temporarily
+D, [2014-10-23T21:22:21.094218 #930] DEBUG -- : response-header: location => http://www.movistar.cl/PortalMovistarWeb/appmanager/PortalMovistar/portal?_nfpb=true&_pageLabel=P1000190501270682270315
+D, [2014-10-23T21:22:21.094270 #930] DEBUG -- : response-header: connection => close
+D, [2014-10-23T21:22:21.094317 #930] DEBUG -- : response-header: cache-control => no-cache
+D, [2014-10-23T21:22:21.094363 #930] DEBUG -- : response-header: pragma => no-cache
+D, [2014-10-23T21:22:21.094494 #930] DEBUG -- : Read 0 bytes (0 total)
+I, [2014-10-23T21:22:21.095014 #930]  INFO -- : follow redirect to: http://www.movistar.cl/PortalMovistarWeb/appmanager/PortalMovistar/portal?_nfpb=true&_pageLabel=P1000190501270682270315
+I, [2014-10-23T21:22:21.096027 #930]  INFO -- : Net::HTTP::Get: /PortalMovistarWeb/appmanager/PortalMovistar/portal?_nfpb=true&_pageLabel=P1000190501270682270315
+D, [2014-10-23T21:22:21.096088 #930] DEBUG -- : request-header: accept-encoding => gzip,deflate,identity
+D, [2014-10-23T21:22:21.096137 #930] DEBUG -- : request-header: accept => */*
+D, [2014-10-23T21:22:21.096183 #930] DEBUG -- : request-header: user-agent => Mechanize/2.7.2 Ruby/2.1.1p76 (http://github.com/sparklemotion/mechanize/)
+D, [2014-10-23T21:22:21.096229 #930] DEBUG -- : request-header: accept-charset => ISO-8859-1,utf-8;q=0.7,*;q=0.7
+D, [2014-10-23T21:22:21.096275 #930] DEBUG -- : request-header: accept-language => en-us,en;q=0.5
+D, [2014-10-23T21:22:21.096321 #930] DEBUG -- : request-header: host => www.movistar.cl
+I, [2014-10-23T21:22:21.393879 #930]  INFO -- : status: Net::HTTPOK 1.1 200 OK
+D, [2014-10-23T21:22:21.394065 #930] DEBUG -- : response-header: cache-control => no-cache="Set-Cookie"
+D, [2014-10-23T21:22:21.394127 #930] DEBUG -- : response-header: date => Thu, 23 Oct 2014 21:23:24 GMT
+D, [2014-10-23T21:22:21.394294 #930] DEBUG -- : response-header: transfer-encoding => chunked
+D, [2014-10-23T21:22:21.394354 #930] DEBUG -- : response-header: content-type => text/html; charset=UTF-8
+D, [2014-10-23T21:22:21.394403 #930] DEBUG -- : response-header: set-cookie => JSESSIONID=5SK4JJxMQ7f6g8NRtwrd0jlwJKBvldhsT2HWt913lnJmsTmQnRSP!1145634619; path=/, TLTSID=17998747027601414099015; path=/; domain=.movistar.cl, NSC_mcwt_ovfwp_xxx_npwjtubs_dm=ffffffff09b2001e45525d5f4f58455e445a4a42151d;path=/;httponly
+D, [2014-10-23T21:22:21.394461 #930] DEBUG -- : response-header: x-powered-by => Servlet/2.5 JSP/2.1
+D, [2014-10-23T21:22:21.394663 #930] DEBUG -- : Read 4072 bytes (4072 total)
+D, [2014-10-23T21:22:21.394760 #930] DEBUG -- : Read 2714 bytes (6786 total)
+D, [2014-10-23T21:22:21.394856 #930] DEBUG -- : Read 1358 bytes (8144 total)
+D, [2014-10-23T21:22:21.394922 #930] DEBUG -- : Read 212 bytes (8356 total)
+D, [2014-10-23T21:22:21.722283 #930] DEBUG -- : Read 2435 bytes (10791 total)
+D, [2014-10-23T21:22:21.723302 #930] DEBUG -- : Read 4072 bytes (14863 total)
+D, [2014-10-23T21:22:21.776929 #930] DEBUG -- : Read 4072 bytes (18935 total)
+D, [2014-10-23T21:22:21.778185 #930] DEBUG -- : Read 1354 bytes (20289 total)
+D, [2014-10-23T21:22:21.778521 #930] DEBUG -- : Read 2718 bytes (23007 total)
+D, [2014-10-23T21:22:21.778613 #930] DEBUG -- : Read 1354 bytes (24361 total)
+D, [2014-10-23T21:22:21.831823 #930] DEBUG -- : Read 2718 bytes (27079 total)
+D, [2014-10-23T21:22:21.831916 #930] DEBUG -- : Read 4072 bytes (31151 total)
+D, [2014-10-23T21:22:21.833356 #930] DEBUG -- : Read 4072 bytes (35223 total)
+D, [2014-10-23T21:22:21.972107 #930] DEBUG -- : Read 1354 bytes (36577 total)
+D, [2014-10-23T21:22:21.972281 #930] DEBUG -- : Read 2718 bytes (39295 total)
+D, [2014-10-23T21:22:21.972386 #930] DEBUG -- : Read 4072 bytes (43367 total)
+D, [2014-10-23T21:22:21.974322 #930] DEBUG -- : Read 494 bytes (43861 total)
+D, [2014-10-23T21:22:22.027294 #930] DEBUG -- : Read 4072 bytes (47933 total)
+D, [2014-10-23T21:22:22.027578 #930] DEBUG -- : Read 4072 bytes (52005 total)
+D, [2014-10-23T21:22:22.027651 #930] DEBUG -- : Read 2714 bytes (54719 total)
+D, [2014-10-23T21:22:22.081852 #930] DEBUG -- : Read 1358 bytes (56077 total)
+D, [2014-10-23T21:22:22.082048 #930] DEBUG -- : Read 4072 bytes (60149 total)
+D, [2014-10-23T21:22:22.082149 #930] DEBUG -- : Read 2714 bytes (62863 total)
+D, [2014-10-23T21:22:22.082241 #930] DEBUG -- : Read 1358 bytes (64221 total)
+D, [2014-10-23T21:22:22.082341 #930] DEBUG -- : Read 4072 bytes (68293 total)
+D, [2014-10-23T21:22:22.136782 #930] DEBUG -- : Read 4072 bytes (72365 total)
+D, [2014-10-23T21:22:22.136971 #930] DEBUG -- : Read 4072 bytes (76437 total)
+D, [2014-10-23T21:22:22.137092 #930] DEBUG -- : Read 4072 bytes (80509 total)
+D, [2014-10-23T21:22:22.743734 #930] DEBUG -- : Read 4072 bytes (84581 total)
+D, [2014-10-23T21:22:22.798298 #930] DEBUG -- : Read 2714 bytes (87295 total)
+D, [2014-10-23T21:22:22.798586 #930] DEBUG -- : Read 292 bytes (87587 total)
+D, [2014-10-23T21:22:22.798698 #930] DEBUG -- : Read 3780 bytes (91367 total)
+D, [2014-10-23T21:22:22.852567 #930] DEBUG -- : Read 292 bytes (91659 total)
+D, [2014-10-23T21:22:22.852748 #930] DEBUG -- : Read 1060 bytes (92719 total)
+D, [2014-10-23T21:22:22.852838 #930] DEBUG -- : Read 1360 bytes (94079 total)
+D, [2014-10-23T21:22:22.853127 #930] DEBUG -- : Read 1652 bytes (95731 total)
+D, [2014-10-23T21:22:22.853389 #930] DEBUG -- : Read 4072 bytes (99803 total)
+D, [2014-10-23T21:22:22.853988 #930] DEBUG -- : Read 1060 bytes (100863 total)
+D, [2014-10-23T21:22:22.854086 #930] DEBUG -- : Read 2720 bytes (103583 total)
+D, [2014-10-23T21:22:22.907005 #930] DEBUG -- : Read 292 bytes (103875 total)
+D, [2014-10-23T21:22:22.907139 #930] DEBUG -- : Read 523 bytes (104398 total)
+D, [2014-10-23T21:22:22.920185 #930] DEBUG -- : saved cookie: JSESSIONID=5SK4JJxMQ7f6g8NRtwrd0jlwJKBvldhsT2HWt913lnJmsTmQnRSP!1145634619
+D, [2014-10-23T21:22:22.920601 #930] DEBUG -- : saved cookie: TLTSID=17998747027601414099015
+D, [2014-10-23T21:22:22.920791 #930] DEBUG -- : saved cookie: NSC_mcwt_ovfwp_xxx_npwjtubs_dm=ffffffff09b2001e45525d5f4f58455e445a4a42151d
+I, [2014-10-23T21:22:55.199246 #938]  INFO -- : Net::HTTP::Get: /
+D, [2014-10-23T21:22:55.199381 #938] DEBUG -- : request-header: accept-encoding => gzip,deflate,identity
+D, [2014-10-23T21:22:55.199443 #938] DEBUG -- : request-header: accept => */*
+D, [2014-10-23T21:22:55.199504 #938] DEBUG -- : request-header: user-agent => Mechanize/2.7.2 Ruby/2.1.1p76 (http://github.com/sparklemotion/mechanize/)
+D, [2014-10-23T21:22:55.199552 #938] DEBUG -- : request-header: accept-charset => ISO-8859-1,utf-8;q=0.7,*;q=0.7
+D, [2014-10-23T21:22:55.200532 #938] DEBUG -- : request-header: accept-language => en-us,en;q=0.5
+D, [2014-10-23T21:22:55.200598 #938] DEBUG -- : request-header: host => movistar.cl
+I, [2014-10-23T21:22:55.309559 #938]  INFO -- : status: Net::HTTPFound 1.1 302 Moved Temporarily
+D, [2014-10-23T21:22:55.309710 #938] DEBUG -- : response-header: location => http://www.movistar.cl/PortalMovistarWeb/appmanager/PortalMovistar/portal?_nfpb=true&_pageLabel=P1000190501270682270315
+D, [2014-10-23T21:22:55.309763 #938] DEBUG -- : response-header: connection => close
+D, [2014-10-23T21:22:55.309810 #938] DEBUG -- : response-header: cache-control => no-cache
+D, [2014-10-23T21:22:55.309856 #938] DEBUG -- : response-header: pragma => no-cache
+D, [2014-10-23T21:22:55.310539 #938] DEBUG -- : Read 0 bytes (0 total)
+I, [2014-10-23T21:22:55.311090 #938]  INFO -- : follow redirect to: http://www.movistar.cl/PortalMovistarWeb/appmanager/PortalMovistar/portal?_nfpb=true&_pageLabel=P1000190501270682270315
+I, [2014-10-23T21:22:55.316628 #938]  INFO -- : Net::HTTP::Get: /PortalMovistarWeb/appmanager/PortalMovistar/portal?_nfpb=true&_pageLabel=P1000190501270682270315
+D, [2014-10-23T21:22:55.316688 #938] DEBUG -- : request-header: accept-encoding => gzip,deflate,identity
+D, [2014-10-23T21:22:55.316740 #938] DEBUG -- : request-header: accept => */*
+D, [2014-10-23T21:22:55.316788 #938] DEBUG -- : request-header: user-agent => Mechanize/2.7.2 Ruby/2.1.1p76 (http://github.com/sparklemotion/mechanize/)
+D, [2014-10-23T21:22:55.316835 #938] DEBUG -- : request-header: accept-charset => ISO-8859-1,utf-8;q=0.7,*;q=0.7
+D, [2014-10-23T21:22:55.316882 #938] DEBUG -- : request-header: accept-language => en-us,en;q=0.5
+D, [2014-10-23T21:22:55.316945 #938] DEBUG -- : request-header: host => www.movistar.cl
+I, [2014-10-23T21:22:55.494709 #938]  INFO -- : status: Net::HTTPOK 1.1 200 OK
+D, [2014-10-23T21:22:55.494867 #938] DEBUG -- : response-header: cache-control => no-cache="Set-Cookie"
+D, [2014-10-23T21:22:55.494920 #938] DEBUG -- : response-header: date => Thu, 23 Oct 2014 21:23:22 GMT
+D, [2014-10-23T21:22:55.494967 #938] DEBUG -- : response-header: transfer-encoding => chunked
+D, [2014-10-23T21:22:55.495022 #938] DEBUG -- : response-header: content-type => text/html; charset=UTF-8
+D, [2014-10-23T21:22:55.495071 #938] DEBUG -- : response-header: set-cookie => JSESSIONID=06FlJJxKBQ3cQGJ4LqS3xHxHk6M8D44QPJBTnyLjL5pxdM2202j2!-1887653363; path=/, TLTSID=179987470572441414099049; path=/; domain=.movistar.cl, NSC_mcwt_ovfwp_xxx_npwjtubs_dm=ffffffff09b12d1b45525d5f4f58455e445a4a42151d;path=/;httponly
+D, [2014-10-23T21:22:55.495121 #938] DEBUG -- : response-header: x-powered-by => Servlet/2.5 JSP/2.1
+D, [2014-10-23T21:22:55.495506 #938] DEBUG -- : Read 2714 bytes (2714 total)
+D, [2014-10-23T21:22:55.550338 #938] DEBUG -- : Read 1358 bytes (4072 total)
+D, [2014-10-23T21:22:55.550489 #938] DEBUG -- : Read 1354 bytes (5426 total)
+D, [2014-10-23T21:22:55.550733 #938] DEBUG -- : Read 2718 bytes (8144 total)
+D, [2014-10-23T21:22:55.550803 #938] DEBUG -- : Read 213 bytes (8357 total)
+D, [2014-10-23T21:22:55.606009 #938] DEBUG -- : Read 1354 bytes (9711 total)
+D, [2014-10-23T21:22:55.606272 #938] DEBUG -- : Read 1082 bytes (10793 total)
+D, [2014-10-23T21:22:55.606395 #938] DEBUG -- : Read 2990 bytes (13783 total)
+D, [2014-10-23T21:22:55.606729 #938] DEBUG -- : Read 1082 bytes (14865 total)
+D, [2014-10-23T21:22:55.606831 #938] DEBUG -- : Read 2990 bytes (17855 total)
+D, [2014-10-23T21:22:55.662225 #938] DEBUG -- : Read 1082 bytes (18937 total)
+D, [2014-10-23T21:22:55.662567 #938] DEBUG -- : Read 4072 bytes (23009 total)
+D, [2014-10-23T21:22:55.662656 #938] DEBUG -- : Read 1630 bytes (24639 total)
+D, [2014-10-23T21:22:55.662786 #938] DEBUG -- : Read 2442 bytes (27081 total)
+D, [2014-10-23T21:22:55.662864 #938] DEBUG -- : Read 1630 bytes (28711 total)
+D, [2014-10-23T21:22:55.718221 #938] DEBUG -- : Read 2442 bytes (31153 total)
+D, [2014-10-23T21:22:55.718415 #938] DEBUG -- : Read 2990 bytes (34143 total)
+D, [2014-10-23T21:22:55.718725 #938] DEBUG -- : Read 1082 bytes (35225 total)
+D, [2014-10-23T21:22:55.788874 #938] DEBUG -- : Read 2714 bytes (37939 total)
+D, [2014-10-23T21:22:55.789082 #938] DEBUG -- : Read 1358 bytes (39297 total)
+D, [2014-10-23T21:22:55.789191 #938] DEBUG -- : Read 4072 bytes (43369 total)
+D, [2014-10-23T21:22:55.790746 #938] DEBUG -- : Read 535 bytes (43904 total)
+D, [2014-10-23T21:22:55.845016 #938] DEBUG -- : Read 4072 bytes (47976 total)
+D, [2014-10-23T21:22:55.845213 #938] DEBUG -- : Read 2714 bytes (50690 total)
+D, [2014-10-23T21:22:55.846819 #938] DEBUG -- : Read 1358 bytes (52048 total)
+D, [2014-10-23T21:22:55.846914 #938] DEBUG -- : Read 2714 bytes (54762 total)
+D, [2014-10-23T21:22:55.902264 #938] DEBUG -- : Read 1358 bytes (56120 total)
+D, [2014-10-23T21:22:55.902564 #938] DEBUG -- : Read 4072 bytes (60192 total)
+D, [2014-10-23T21:22:55.902747 #938] DEBUG -- : Read 2714 bytes (62906 total)
+D, [2014-10-23T21:22:55.902837 #938] DEBUG -- : Read 1358 bytes (64264 total)
+D, [2014-10-23T21:22:55.902929 #938] DEBUG -- : Read 2714 bytes (66978 total)
+D, [2014-10-23T21:22:55.956960 #938] DEBUG -- : Read 1358 bytes (68336 total)
+D, [2014-10-23T21:22:55.957339 #938] DEBUG -- : Read 4072 bytes (72408 total)
+D, [2014-10-23T21:22:55.957442 #938] DEBUG -- : Read 1354 bytes (73762 total)
+D, [2014-10-23T21:22:55.958727 #938] DEBUG -- : Read 2718 bytes (76480 total)
+D, [2014-10-23T21:22:56.014110 #938] DEBUG -- : Read 4072 bytes (80552 total)
+D, [2014-10-23T21:22:56.309544 #938] DEBUG -- : Read 4072 bytes (84624 total)
+D, [2014-10-23T21:22:56.359335 #938] DEBUG -- : Read 3011 bytes (87635 total)
+D, [2014-10-23T21:22:56.359513 #938] DEBUG -- : Read 3775 bytes (91410 total)
+D, [2014-10-23T21:22:56.415296 #938] DEBUG -- : Read 297 bytes (91707 total)
+D, [2014-10-23T21:22:56.415482 #938] DEBUG -- : Read 4072 bytes (95779 total)
+D, [2014-10-23T21:22:56.415590 #938] DEBUG -- : Read 3775 bytes (99554 total)
+D, [2014-10-23T21:22:56.418736 #938] DEBUG -- : Read 297 bytes (99851 total)
+D, [2014-10-23T21:22:56.419328 #938] DEBUG -- : Read 1055 bytes (100906 total)
+D, [2014-10-23T21:22:56.470768 #938] DEBUG -- : Read 1360 bytes (102266 total)
+D, [2014-10-23T21:22:56.570636 #938] DEBUG -- : Read 1657 bytes (103923 total)
+D, [2014-10-23T21:22:56.570769 #938] DEBUG -- : Read 527 bytes (104450 total)
+D, [2014-10-23T21:22:56.611597 #938] DEBUG -- : saved cookie: JSESSIONID=06FlJJxKBQ3cQGJ4LqS3xHxHk6M8D44QPJBTnyLjL5pxdM2202j2!-1887653363
+D, [2014-10-23T21:22:56.611909 #938] DEBUG -- : saved cookie: TLTSID=179987470572441414099049
+D, [2014-10-23T21:22:56.612115 #938] DEBUG -- : saved cookie: NSC_mcwt_ovfwp_xxx_npwjtubs_dm=ffffffff09b12d1b45525d5f4f58455e445a4a42151d
+I, [2014-10-23T21:23:52.206417 #947]  INFO -- : Net::HTTP::Get: /
+D, [2014-10-23T21:23:52.206560 #947] DEBUG -- : request-header: accept-encoding => gzip,deflate,identity
+D, [2014-10-23T21:23:52.206646 #947] DEBUG -- : request-header: accept => */*
+D, [2014-10-23T21:23:52.206698 #947] DEBUG -- : request-header: user-agent => Mechanize/2.7.2 Ruby/2.1.1p76 (http://github.com/sparklemotion/mechanize/)
+D, [2014-10-23T21:23:52.206745 #947] DEBUG -- : request-header: accept-charset => ISO-8859-1,utf-8;q=0.7,*;q=0.7
+D, [2014-10-23T21:23:52.206791 #947] DEBUG -- : request-header: accept-language => en-us,en;q=0.5
+D, [2014-10-23T21:23:52.206837 #947] DEBUG -- : request-header: host => movistar.cl
+I, [2014-10-23T21:23:52.311488 #947]  INFO -- : status: Net::HTTPFound 1.1 302 Moved Temporarily
+D, [2014-10-23T21:23:52.311674 #947] DEBUG -- : response-header: location => http://www.movistar.cl/PortalMovistarWeb/appmanager/PortalMovistar/portal?_nfpb=true&_pageLabel=P1000190501270682270315
+D, [2014-10-23T21:23:52.311727 #947] DEBUG -- : response-header: connection => close
+D, [2014-10-23T21:23:52.311774 #947] DEBUG -- : response-header: cache-control => no-cache
+D, [2014-10-23T21:23:52.311838 #947] DEBUG -- : response-header: pragma => no-cache
+D, [2014-10-23T21:23:52.311958 #947] DEBUG -- : Read 0 bytes (0 total)
+I, [2014-10-23T21:23:52.313033 #947]  INFO -- : follow redirect to: http://www.movistar.cl/PortalMovistarWeb/appmanager/PortalMovistar/portal?_nfpb=true&_pageLabel=P1000190501270682270315
+I, [2014-10-23T21:23:52.314056 #947]  INFO -- : Net::HTTP::Get: /PortalMovistarWeb/appmanager/PortalMovistar/portal?_nfpb=true&_pageLabel=P1000190501270682270315
+D, [2014-10-23T21:23:52.314119 #947] DEBUG -- : request-header: accept-encoding => gzip,deflate,identity
+D, [2014-10-23T21:23:52.314168 #947] DEBUG -- : request-header: accept => */*
+D, [2014-10-23T21:23:52.314215 #947] DEBUG -- : request-header: user-agent => Mechanize/2.7.2 Ruby/2.1.1p76 (http://github.com/sparklemotion/mechanize/)
+D, [2014-10-23T21:23:52.314261 #947] DEBUG -- : request-header: accept-charset => ISO-8859-1,utf-8;q=0.7,*;q=0.7
+D, [2014-10-23T21:23:52.314306 #947] DEBUG -- : request-header: accept-language => en-us,en;q=0.5
+D, [2014-10-23T21:23:52.314352 #947] DEBUG -- : request-header: host => www.movistar.cl
+I, [2014-10-23T21:23:52.498523 #947]  INFO -- : status: Net::HTTPOK 1.1 200 OK
+D, [2014-10-23T21:23:52.498821 #947] DEBUG -- : response-header: cache-control => no-cache="Set-Cookie"
+D, [2014-10-23T21:23:52.498876 #947] DEBUG -- : response-header: date => Thu, 23 Oct 2014 21:25:54 GMT
+D, [2014-10-23T21:23:52.498939 #947] DEBUG -- : response-header: transfer-encoding => chunked
+D, [2014-10-23T21:23:52.498988 #947] DEBUG -- : response-header: content-type => text/html; charset=UTF-8
+D, [2014-10-23T21:23:52.499044 #947] DEBUG -- : response-header: set-cookie => JSESSIONID=nysvJJyCZfGpmrLZnJLytTb4nQzzhVWDYT8x0nNnNJwZ4gNGLwJL!886377063; path=/, TLTSID=17998747050601414099106; path=/; domain=.movistar.cl, NSC_mcwt_ovfwp_xxx_npwjtubs_dm=ffffffff09bd092745525d5f4f58455e445a4a42151d;path=/;httponly
+D, [2014-10-23T21:23:52.499095 #947] DEBUG -- : response-header: x-powered-by => Servlet/2.5 JSP/2.1
+D, [2014-10-23T21:23:52.499545 #947] DEBUG -- : Read 4072 bytes (4072 total)
+D, [2014-10-23T21:23:52.499709 #947] DEBUG -- : Read 4072 bytes (8144 total)
+D, [2014-10-23T21:23:52.499776 #947] DEBUG -- : Read 211 bytes (8355 total)
+D, [2014-10-23T21:23:52.669124 #947] DEBUG -- : Read 2434 bytes (10789 total)
+D, [2014-10-23T21:23:52.670614 #947] DEBUG -- : Read 4072 bytes (14861 total)
+D, [2014-10-23T21:23:52.670884 #947] DEBUG -- : Read 4072 bytes (18933 total)
+D, [2014-10-23T21:23:52.670978 #947] DEBUG -- : Read 2714 bytes (21647 total)
+D, [2014-10-23T21:23:52.671476 #947] DEBUG -- : Read 1358 bytes (23005 total)
+D, [2014-10-23T21:23:52.726195 #947] DEBUG -- : Read 1354 bytes (24359 total)
+D, [2014-10-23T21:23:52.726503 #947] DEBUG -- : Read 2718 bytes (27077 total)
+D, [2014-10-23T21:23:52.726580 #947] DEBUG -- : Read 1354 bytes (28431 total)
+D, [2014-10-23T21:23:52.726741 #947] DEBUG -- : Read 2718 bytes (31149 total)
+D, [2014-10-23T21:23:52.726838 #947] DEBUG -- : Read 4072 bytes (35221 total)
+D, [2014-10-23T21:23:52.939491 #947] DEBUG -- : Read 4072 bytes (39293 total)
+D, [2014-10-23T21:23:52.939665 #947] DEBUG -- : Read 4072 bytes (43365 total)
+D, [2014-10-23T21:23:52.939745 #947] DEBUG -- : Read 443 bytes (43808 total)
+D, [2014-10-23T21:23:52.940259 #947] DEBUG -- : Read 4072 bytes (47880 total)
+D, [2014-10-23T21:23:52.996056 #947] DEBUG -- : Read 4072 bytes (51952 total)
+D, [2014-10-23T21:23:52.996160 #947] DEBUG -- : Read 4072 bytes (56024 total)
+D, [2014-10-23T21:23:52.996228 #947] DEBUG -- : Read 1354 bytes (57378 total)
+D, [2014-10-23T21:23:52.996304 #947] DEBUG -- : Read 2718 bytes (60096 total)
+D, [2014-10-23T21:23:52.996385 #947] DEBUG -- : Read 2714 bytes (62810 total)
+D, [2014-10-23T21:23:53.050505 #947] DEBUG -- : Read 1358 bytes (64168 total)
+D, [2014-10-23T21:23:53.050771 #947] DEBUG -- : Read 1354 bytes (65522 total)
+D, [2014-10-23T21:23:53.051085 #947] DEBUG -- : Read 2718 bytes (68240 total)
+D, [2014-10-23T21:23:53.051197 #947] DEBUG -- : Read 4072 bytes (72312 total)
+D, [2014-10-23T21:23:53.051279 #947] DEBUG -- : Read 1354 bytes (73666 total)
+D, [2014-10-23T21:23:53.051559 #947] DEBUG -- : Read 1360 bytes (75026 total)
+D, [2014-10-23T21:23:53.051842 #947] DEBUG -- : Read 1358 bytes (76384 total)
+D, [2014-10-23T21:23:53.051934 #947] DEBUG -- : Read 4072 bytes (80456 total)
+D, [2014-10-23T21:23:53.729844 #947] DEBUG -- : Read 4072 bytes (84528 total)
+D, [2014-10-23T21:23:53.780332 #947] DEBUG -- : Read 1354 bytes (85882 total)
+D, [2014-10-23T21:23:53.780516 #947] DEBUG -- : Read 1647 bytes (87529 total)
+D, [2014-10-23T21:23:53.780619 #947] DEBUG -- : Read 3785 bytes (91314 total)
+D, [2014-10-23T21:23:53.835620 #947] DEBUG -- : Read 287 bytes (91601 total)
+D, [2014-10-23T21:23:53.835831 #947] DEBUG -- : Read 2425 bytes (94026 total)
+D, [2014-10-23T21:23:53.836071 #947] DEBUG -- : Read 1647 bytes (95673 total)
+D, [2014-10-23T21:23:53.836208 #947] DEBUG -- : Read 4072 bytes (99745 total)
+D, [2014-10-23T21:23:53.836803 #947] DEBUG -- : Read 2425 bytes (102170 total)
+D, [2014-10-23T21:23:53.891295 #947] DEBUG -- : Read 1647 bytes (103817 total)
+D, [2014-10-23T21:23:53.891466 #947] DEBUG -- : Read 519 bytes (104336 total)
+D, [2014-10-23T21:23:53.909847 #947] DEBUG -- : saved cookie: JSESSIONID=nysvJJyCZfGpmrLZnJLytTb4nQzzhVWDYT8x0nNnNJwZ4gNGLwJL!886377063
+D, [2014-10-23T21:23:53.910194 #947] DEBUG -- : saved cookie: TLTSID=17998747050601414099106
+D, [2014-10-23T21:23:53.910369 #947] DEBUG -- : saved cookie: NSC_mcwt_ovfwp_xxx_npwjtubs_dm=ffffffff09bd092745525d5f4f58455e445a4a42151d
