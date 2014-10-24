@@ -1,4 +1,6 @@
 Rails.application.routes.draw do
+  resources :operations
+
   resources :ideas
 
   get 'sessions/new'

@@ -1,0 +1,13 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  person: MyString
+  amount: 1
+  description: MyString
+  solved: false
+
+two:
+  person: MyString
+  amount: 1
+  description: MyString
+  solved: false
